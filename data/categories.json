@@ -1,0 +1,22 @@
+[
+  { "id": "medical", "slug": "medical", "name": "医療", "symbol": "＋", "description": "診断、治療、救命、薬など、人の健康を支える仕事" },
+  { "id": "legal", "slug": "legal", "name": "法律", "symbol": "§", "description": "法律と手続きによって権利や暮らしを支える仕事" },
+  { "id": "education", "slug": "education", "name": "教育", "symbol": "学", "description": "知識や経験を伝え、成長を支える仕事" },
+  { "id": "police", "slug": "police", "name": "警察", "symbol": "警", "description": "地域の安全、捜査、鑑定に関わる仕事" },
+  { "id": "defense", "slug": "defense", "name": "自衛隊", "symbol": "衛", "description": "国の防衛、災害派遣、海空陸の任務に携わる仕事" },
+  { "id": "government", "slug": "government", "name": "公務員", "symbol": "公", "description": "行政、税、外交、消防、防災など公共の安全と暮らしを支える仕事" },
+  { "id": "it", "slug": "it", "name": "IT", "symbol": "IT", "description": "ソフトウェア、データ、情報安全を扱う仕事" },
+  { "id": "architecture", "slug": "architecture", "name": "建築", "symbol": "建", "description": "建物を計画し、造り、維持する仕事" },
+  { "id": "research", "slug": "research", "name": "研究", "symbol": "研", "description": "資料や実験から新しい知見を探る仕事" },
+  { "id": "arts", "slug": "arts", "name": "芸術", "symbol": "藝", "description": "文章、絵、写真などで表現を生み出す仕事" },
+  { "id": "sports", "slug": "sports", "name": "スポーツ", "symbol": "体", "description": "競技と身体づくりに関わる仕事" },
+  { "id": "media", "slug": "media", "name": "メディア・広告", "symbol": "報", "description": "報道、出版、放送、広告、配信、芸能制作で情報や作品を届ける仕事" },
+  { "id": "hospitality", "slug": "hospitality", "name": "接客", "symbol": "客", "description": "対面サービスで人の時間や体験を支える仕事" },
+  { "id": "transport", "slug": "transport", "name": "運送", "symbol": "運", "description": "人や物を安全に目的地へ運ぶ仕事" },
+  { "id": "manufacturing", "slug": "manufacturing", "name": "製造", "symbol": "製", "description": "製品を設計、生産、検査する仕事" },
+  { "id": "agriculture", "slug": "agriculture", "name": "農林水産", "symbol": "農", "description": "農業、林業、漁業、養殖など、土地・森林・水域の資源を育て生かす仕事" },
+  { "id": "religion", "slug": "religion", "name": "宗教", "symbol": "祈", "description": "儀礼、祈り、地域文化に関わる仕事" },
+  { "id": "student", "slug": "student", "name": "学生", "symbol": "生", "description": "学びを中心に、多様な活動へ参加する立場" },
+  { "id": "freelance", "slug": "freelance", "name": "フリーランス", "symbol": "個", "description": "職名そのものが独立就業を表す仕事。フリーランスになり得る他分野の職業は仕事内容のカテゴリーへ掲載" },
+  { "id": "other", "slug": "other", "name": "その他", "symbol": "他", "description": "動物ケア、警備、生活支援、言語サービスなど、既存分野に収まりにくい専門職" }
+]

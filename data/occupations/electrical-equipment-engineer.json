@@ -1,0 +1,73 @@
+{
+  "id": "occ-162", "slug": "electrical-equipment-engineer", "name": "電気機器技術者", "aliases": ["電気機械技術者"], "categoryId": "manufacturing",
+  "searchFacets": {"eras":["meiji-19c"],"regions":["fictional"],"situations":["closed","disaster","research-facility"]},
+  "catchphrase": "電力を安全な動きへ変える回路と機器を設計する。",
+  "shortDescription": "モーター、変圧器、配電盤、電源装置など電気機器の設計、評価、製造支援を行う技術者。建物への配線施工を主とする電気工事とは別に、機器側の性能・絶縁・熱・保護を成立させる。",
+  "keywords": ["強電エンジニア", "電気機器", "モーター", "絶縁", "回路", "電力", "試験"],
+  "setting": {"eras": ["現代"], "regions": ["日本"], "note": "現代日本の電機メーカーで産業用・民生用電気機器を開発または製造支援する技術者像。強電・弱電、製品規格、認証範囲で役割は変わる。"},
+  "overview": {
+    "responsibilities": ["必要な電圧、出力、効率、絶縁、温度上昇を検討し、回路・巻線・筐体・保護方式を設計する。", "試作機の電気特性と異常時挙動を測定し、製造ばらつきや部品変更を含めて安全性を評価する。"],
+    "typicalPeople": ["見えない電流の経路を図面と測定値から想像し、通電前の確認を徹底できる人。", "性能だけでなく絶縁距離、発熱、誤接続時の危険まで考えられる人。"],
+    "dailySchedule": [
+      {"time": "08:45", "title": "仕様・変更点確認", "description": "要求出力、使用環境、部品変更、前日の試験異常を確認して優先順位を決める。"},
+      {"time": "10:00", "title": "回路・熱設計", "description": "電流経路、損失、温度上昇、絶縁距離を計算し図面を更新する。"},
+      {"time": "13:30", "title": "試作評価", "description": "立入管理と接地を確認して通電し、波形、発熱、保護動作を測定する。"},
+      {"time": "16:30", "title": "結果整理", "description": "異常の再現条件をまとめ、設計・部品・製造工程の対策へ割り当てる。"}
+    ],
+    "qualifications": ["機器設計への入職に一律の必須資格は通常ない。電気主任技術者や電気工事士は担当する設備管理・工事の範囲で別途必要になる場合がある。"],
+    "education": ["大学、高専、専門学校等で電気工学、電力、制御、材料を学ぶ人が多い。製造試験部門から設計へ進む例もある。"],
+    "workStyle": ["設計室、試験室、工場で勤務する。高電圧試験や大型機器の評価は複数人で行い、量産不具合時に出張する場合がある。"],
+    "annualIncome": {"summary": "製品分野、電圧領域、設計責任、経験により幅があり、メーカーの技術職給与体系が基本となる。", "note": "地域、企業規模、役職、資格手当、出張や交替勤務の有無で異なるため、個別条件の確認が必要。"},
+    "suitableFor": ["通電していないと思い込まず測定で確認できる人", "数式と実機波形の食い違いを楽しんで追える人"]
+  },
+  "creative": {
+    "investigatorFeatures": ["焦げ、絶縁破壊、波形の乱れから、過電流・短絡・外部からの信号を切り分けられる。", "配電系統をたどり、建物内で不自然に電力を消費する機器や隠し回路を探せる。"],
+    "likelyKnowledge": ["電気回路、電力、電磁気、モーター、変圧器、絶縁。", "計測器、接地、保護装置、熱設計、製造試験、電気安全。"],
+    "roleplayTips": ["端子へ触る前に、遮断・検電・接地の状態を確認する。", "怪現象もまず電圧、周波数、負荷、時間の変化として記録する。"],
+    "personalityExamples": ["暗闇でも系統図を思い描く設計者", "一度の保護動作も偶然で済ませない試験担当"],
+    "everydayEvents": ["電源から外した試作モーターが、決まった方角へゆっくり回り続ける。", "絶縁試験器が存在しない端子番号への抵抗値を表示する。"],
+    "scenarioHooks": ["町全体の瞬停が、廃工場の一台の変圧器と同期している。", "焼損した機器の巻線に、音声として復元できる磁化パターンが残る。"],
+    "commonCharacterSettings": ["不可解な感電事故の再現試験を続ける安全設計者。", "古い発電所の系統図を祖父から受け継いだ電機技術者。"]
+  },
+  "creativeIdeas": [
+    {"title": "無給電モーターの方角", "summary": "現代日本の試験棟で、切り離したモーターが北西へ軸を向ける。電気機器技術者は残留磁気と周辺電界を測り、地下の巨大な負荷へ迫る。", "era": "現代", "region": "日本"},
+    {"title": "雷都の記憶変圧器", "summary": "雷を蓄える都市で、変圧器の巻線が落雷した人々の声を放つ。技師は負荷を止めずに声の発生区画を切り離そうとする。", "era": "電気黎明期風", "region": "架空の雷都"}
+  ],
+  "scenarioSituations": [
+    {"title": "大規模停電", "reason": "配電経路と保護装置の動作を読み、復電で二次事故を起こさず異常負荷の区画を特定できる。"},
+    {"title": "地下変電設備", "reason": "高電圧機器の危険範囲と通路を理解し、図面外のケーブルがどこへ電力を運ぶか追跡できる。"},
+    {"title": "暴走する研究装置", "reason": "電源、制御、負荷を分けて考え、単なる故障か外部からの給電かを測定によって検証しやすい。"}
+  ],
+  "aptitude": {"investigation": 4, "negotiation": 2, "combat": 2, "infiltration": 3, "support": 3, "knowledge": 5, "beginnerFriendly": 1},
+  "aptitudeReasons": {
+    "knowledge": "知識5/5：電気機器技術者の「電気回路、電力、電磁気、モーター、変圧器、絶縁」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。",
+    "investigation": "調査4/5：電気機器技術者の「焦げ、絶縁破壊、波形の乱れから、過電流・短絡・外部からの信号を切り分けられる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ1/5：電気機器技術者の「端子へ触る前に、遮断・検電・接地の状態を確認する」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": ["電気知識", "回路設計", "計測", "故障解析", "安全管理", "製図", "熱解析"],
+  "relatedOccupationSlugs": ["mechanical-engineer", "industrial-maintenance-technician", "embedded-systems-engineer", "production-engineer"],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省：職業情報提供サイト job tag「電気技術者」",
+      "url": "https://shigoto.mhlw.go.jp/Occupation/Detail?occupationId=272",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "厚生労働省：機械の包括的な安全基準に関する指針の関連資料",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/anzen/anzeneisei14/index.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-17", "updatedAt": "2026-07-26", "lastReviewedAt": "2026-07-26"
+}

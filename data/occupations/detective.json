@@ -1,0 +1,200 @@
+{
+  "id": "occ-012",
+  "slug": "detective",
+  "name": "刑事",
+  "aliases": [
+    "刑事警察官"
+  ],
+  "categoryId": "police",
+  "searchFacets": {"eras":["taisho-1920s"],"regions":["urban","fictional"],"situations":["hotel","criminal-case","maritime","factory"]},
+  "catchphrase": "証言と証拠をつなぎ、事件の筋道を追う。",
+  "shortDescription": "警察の刑事部門などで犯罪捜査に当たる警察官。聞き込み、取調べ、証拠収集、関係部署との調整を行う。",
+  "keywords": [
+    "捜査",
+    "捜査員",
+    "聞き込み",
+    "犯罪",
+    "証拠",
+    "取調べ"
+  ],
+  "setting": {
+    "eras": [
+      "現代"
+    ],
+    "regions": [
+      "日本"
+    ],
+    "note": "現代日本の警察組織で事件捜査に携わる刑事像が基準。所属部署、階級、事件種別で担当は変わる。"
+  },
+  "overview": {
+    "responsibilities": [
+      "現場・証言・記録を集め、事件の時系列と関係者を整理する。",
+      "令状や証拠保全など適正な手続を守り、関係機関と捜査を進める。"
+    ],
+    "typicalPeople": [
+      "人の話を粘り強く聞き、長い調査から事実を積み上げたい警察官が志望する。"
+    ],
+    "dailySchedule": [
+      {
+        "time": "08:30",
+        "title": "捜査会議",
+        "description": "新しい情報と担当を共有し、その日の捜査方針を決める。"
+      },
+      {
+        "time": "10:00",
+        "title": "聞き込み・照会",
+        "description": "関係者を訪ね、映像や各種記録を手続に沿って確認する。"
+      },
+      {
+        "time": "18:00",
+        "title": "供述・証拠の整理",
+        "description": "報告書を作り、食い違いと追加確認事項を洗い出す。"
+      },
+      {
+        "time": "21:00",
+        "title": "張り込みと緊急連絡",
+        "description": "事件の動きに応じて関係先を警戒し、捜査班へ変化を共有する。"
+      }
+    ],
+    "qualifications": [
+      "まず警察官として採用・教育を受け、適性や経験、配置によって刑事部門へ進むのが一般的。"
+    ],
+    "education": [
+      "警察官の採用区分は複数あり、学歴・年齢等の条件は採用主体と年度で異なる。"
+    ],
+    "workStyle": [
+      "勤務は事件に左右され、夜間・休日の呼び出し、張り込み、出張が生じることがある。"
+    ],
+    "annualIncome": {
+      "summary": "刑事は警察官として採用された後に配置される職務で、警視庁の令和8年度採用案内には初任給の参考例としてⅠ類321,900円、Ⅲ類279,400円（地域手当込み）が掲載されている。これは捜査部門へ配属された後の年収額ではない。",
+      "note": "掲載額は令和7年4月1日現在の給料月額を基礎にした東京都での採用時の月額例で、刑事という配属固有の年収ではない。所属する警察本部、経験、階級、勤務時間、諸手当により実際の給与は異なる。"
+    },
+    "suitableFor": [
+      "矛盾を急いで断定せず検証できる人",
+      "守秘と手続を守りながら人に向き合える人"
+    ]
+  },
+  "creative": {
+    "investigatorFeatures": [
+      "公的な捜査権限と組織情報を持つ一方、手続や上司の判断という制約もドラマになる。",
+      "証言、映像、通信記録、物証を同じ時系列へ置き、人物関係と行動の矛盾を捜査課題へ変えられる。"
+    ],
+    "likelyKnowledge": [
+      "犯罪捜査、聞き込み、証拠保全、警察組織、裏社会の基礎情報。",
+      "捜索・差押え、取調べ、捜査書類、被害者支援、関係機関との情報共有の考え方。"
+    ],
+    "roleplayTips": [
+      "仮説を一つに絞らず、誰が・いつ・何を見たかを繰り返し確かめる。",
+      "相手の言葉をそのまま証拠扱いせず、裏付けられる事実と捜査上の推測を分けてメモする。"
+    ],
+    "personalityExamples": [
+      "執念深い現場主義者",
+      "規則を武器にする理論派"
+    ],
+    "everydayEvents": [
+      "別件の小さな盗難記録が、未解決事件と同じ住所を指している。",
+      "参考人の説明は一貫しているのに、防犯カメラへ映る影の数だけが毎回一つ多い。"
+    ],
+    "scenarioHooks": [
+      "死亡したはずの参考人が、署内の内線から担当刑事へ電話をかけてくる。",
+      "別々の事件で押収された手帳に、担当刑事しか知らない捜査予定が同じ筆跡で書かれている。"
+    ],
+    "commonCharacterSettings": [
+      "過去の未解決事件を私物の手帳で追い続ける刑事。",
+      "聞き込みでは柔らかいが、報告書の一語まで根拠を求める捜査主任。"
+    ]
+  },
+  "creativeIdeas": [
+    {
+      "title": "内線から来た死者の声",
+      "summary": "別件の小さな盗難記録が、未解決事件と同じ住所を指している。死亡したはずの参考人が、署内の内線から担当刑事へ電話をかけてくる。証拠として扱えない声を、捜査可能な痕跡へ変えていく。",
+      "era": "現代",
+      "region": "日本"
+    },
+    {
+      "title": "証言が消える事件簿",
+      "summary": "刑事が事件簿を開くたび、前日に得た証言だけが一行ずつ消えている。相棒の記憶と現場の痕跡を照合して捜査を続ける。",
+      "era": "1920年代風",
+      "region": "架空の大都市"
+    }
+  ],
+  "scenarioSituations": [
+    {
+      "title": "連続する刑事事件",
+      "reason": "現場、証言、捜査記録を結び付け、別件に見える被害者たちの共通点を公的な捜査として追える。"
+    },
+    {
+      "title": "ホテルの密室",
+      "reason": "出入口と関係者の行動を時系列で整理し、客室の仕組みに頼らない犯行可能性まで検討できる。"
+    },
+    {
+      "title": "港湾倉庫街",
+      "reason": "令状や聞き込みの手順を踏みつつ、密輸組織と不可解な積荷の関係を組織的に捜査する導入に合う。"
+    }
+  ],
+  "aptitude": {"investigation":5,"negotiation":4,"combat":4,"infiltration":4,"support":3,"knowledge":3,"beginnerFriendly":3},
+  "aptitudeReasons": {
+    "investigation": "調査5/5：刑事の「公的な捜査権限と組織情報を持つ一方、手続や上司の判断という制約もドラマになる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "negotiation": "交渉4/5：刑事の「仮説を一つに絞らず、誰が・いつ・何を見たかを繰り返し確かめる」という職業像が、会話から情報や協力を引き出す役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ3/5：刑事の「仮説を一つに絞らず、誰が・いつ・何を見たかを繰り返し確かめる」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": [
+    "捜査",
+    "聞き込み",
+    "追跡",
+    "拳銃知識",
+    "証拠保全",
+    "捜査書類"
+  ],
+  "relatedOccupationSlugs": [
+    "community-police-officer",
+    "forensic-scientist",
+    "private-investigator"
+  ],
+  "featured": {
+    "popularRank": 2
+  },
+  "sources":[
+    {
+      "title": "厚生労働省 職業情報提供サイト（job tag）：警察官（刑事警察を含む）",
+      "url": "https://shigoto.mhlw.go.jp/Occupation/Detail?occupationId=140",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "警察庁：刑事警察の仕事",
+      "url": "https://www.npa.go.jp/about/recruitment/police/job/type3/index.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    },
+    {
+      "title": "警視庁：刑事警察の職種紹介",
+      "url": "https://www.keishicho.metro.tokyo.lg.jp/saiyo/type/criminal.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    },
+    {
+      "title": "警視庁：令和8年度警察官（Ⅰ・Ⅲ類）採用情報",
+      "url": "https://www.keishicho.metro.tokyo.lg.jp/saiyo/recruit/info-police.html",
+      "type": "government",
+      "supports": [
+        "qualifications",
+        "workStyle",
+        "annualIncome"
+      ]
+    }
+  ],
+  "publishedAt": "2026-06-22",
+  "updatedAt": "2026-07-26",
+  "lastReviewedAt": "2026-07-26"
+}

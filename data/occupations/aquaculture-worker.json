@@ -1,0 +1,73 @@
+{
+  "id": "occ-171", "slug": "aquaculture-worker", "name": "養殖業者", "aliases": ["水産養殖従事者", "養殖漁業者"], "categoryId": "agriculture",
+  "searchFacets": {"eras":["near-future"],"regions":["urban","maritime","fictional"],"situations":["closed","disaster","maritime","research-facility"]},
+  "catchphrase": "水質と成長を見守り、海や陸上の生産環境を整える。",
+  "shortDescription": "魚類、貝類、海藻等をいけす・筏・陸上水槽で育成し、給餌、水質、疾病、成長、出荷を管理する。天然資源を追う漁師と違い、同じ生産場所を継続観察する。",
+  "keywords": ["水産養殖","いけす","水質","給餌","魚病","成長管理","水産業","漁業","農林水産"],
+  "setting": {"eras": ["現代"], "regions": ["日本"], "note": "現代日本の海面・内水面・陸上養殖で魚介・藻類を育てる事業者像。魚種、漁業権、設備、自営・企業で作業は異なる。"},
+  "overview": {
+    "responsibilities": ["水温、溶存酸素、塩分、給餌量、成長、死亡を継続測定し、生物の状態に合わせて飼育条件を調整する。", "網や水槽を保守し、疾病・赤潮・逃亡リスクへ備え、出荷計画と生産履歴を管理する。"],
+    "typicalPeople": ["毎日の数値と生物の泳ぎ方を結び、悪化する前に給餌や密度を変えられる人。", "大量死の恐れがあるとき、原因不明のまま移動させず専門機関へ相談できる人。"],
+    "dailySchedule": [
+      {"time": "06:00", "title": "飼育環境測定", "description": "水温、酸素、流れ、濁り、死亡個体を確認し、その日の給餌量を決める。"},
+      {"time": "08:00", "title": "給餌・行動観察", "description": "食い付きと泳ぎを見ながら餌を与え、異常群を別に記録する。"},
+      {"time": "11:00", "title": "施設保守", "description": "網、係留、ポンプ、ろ過装置を点検し、付着物と破損を除去する。"},
+      {"time": "15:00", "title": "成長・出荷管理", "description": "サンプル測定と履歴を基に選別、移槽、出荷、投薬休止期間等を確認する。"}
+    ],
+    "qualifications": ["就業に一律の資格は通常ないが、独立・操船には漁業権や小型船舶操縦士等が関係する場合がある。水産用医薬品は承認条件等に従う。"],
+    "education": ["水産高校・大学、漁協・企業の現場訓練で養殖生物、水質、設備を学ぶ。魚種ごとの経験蓄積が重要。"],
+    "workStyle": ["早朝の海上・水槽作業があり、台風、赤潮、停電、酸素低下では夜間緊急対応が生じる。陸上養殖はポンプと電源監視が重要。"],
+    "annualIncome": {"summary": "魚種、成長期間、餌代、死亡率、市場価格、設備投資で収益が大きく変わる。", "note": "自営・企業、漁業権、保険、地域、出荷規格によって異なり、売上だけで所得を判断できない。"},
+    "suitableFor": ["変化の遅い水質データを欠かさず記録できる人", "生物とポンプ設備の双方へ関心を持てる人"]
+  },
+  "creative": {
+    "investigatorFeatures": ["水温、酸素、死亡位置、潮流から、異常物質や病変がどこから広がったか推定できる。", "網、係留、ポンプの傷から、自然損耗と人為的な侵入・逃亡を見分けられる。"],
+    "likelyKnowledge": ["魚介類、海藻、水質、給餌、成長、魚病の兆候。", "いけす、網、係留、ポンプ、ろ過、赤潮、漁業権、生産履歴。"],
+    "roleplayTips": ["水面だけでなく、水深ごとの酸素と生物の集まり方を確認する。", "大量死を怪異と決めつけず、流入、停電、餌、疾病を順に除外する。"],
+    "personalityExamples": ["魚の泳層から酸素低下を読む管理者", "台風前に誰より早く係留を増す慎重な養殖家"],
+    "everydayEvents": ["一つのいけすだけ、毎朝生物の数が正確に一匹増える。", "陸上水槽の排水から、施設で育てていない透明な稚魚が見つかる。"],
+    "scenarioHooks": ["海底から伸びた糸が全ての養殖網を同じ方向へ引いている。", "出荷した魚が別々の町で同時に同じ声を発する。"],
+    "commonCharacterSettings": ["赤潮被害をきっかけに海況データを独自収集する養殖家。", "閉鎖循環式施設で外海由来の生物を見つけた技術担当。"]
+  },
+  "creativeIdeas": [
+    {"title": "一匹ずつ増える生簀", "summary": "現代日本の湾で、閉じたいけすの魚が毎朝一匹増える。養殖業者は網の傷、水流、生産履歴を調べ、海底側からの侵入経路を探す。", "era": "現代", "region": "日本"},
+    {"title": "海底都市の逆流養殖場", "summary": "海底都市の閉鎖水槽へ外海の水が逆流する。養殖技師は生物の行動を頼りに、都市より深い未知の循環系を追う。", "era": "近未来", "region": "架空の海底都市"}
+  ],
+  "scenarioSituations": [
+    {"title": "湾内の大量死", "reason": "潮流、水深、酸素、給餌、死亡位置を比較し、赤潮・設備事故・外部流入の候補を段階的に絞れる。"},
+    {"title": "陸上養殖施設", "reason": "ポンプとろ過の系統を理解し、外界から隔離した水槽へ未知の生物が入った経路を追跡できる。"},
+    {"title": "台風接近中の漁村", "reason": "係留と電源喪失に備えて現場へ残る理由があり、異常な海面変化を最初に観測する立場になれる。"}
+  ],
+  "aptitude": {"investigation":3,"negotiation":2,"combat":2,"infiltration":3,"support":3,"knowledge":3,"beginnerFriendly":2},
+  "aptitudeReasons":{
+    "investigation": "調査3/5：養殖業者の「水温、酸素、死亡位置、潮流から、異常物質や病変がどこから広がったか推定できる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "infiltration": "潜入3/5：養殖業者の「海底から伸びた糸が全ての養殖網を同じ方向へ引いている」という職業像が、人目を避けて現場へ近づく場面の説得力につながります。",
+    "beginnerFriendly": "初心者おすすめ2/5：養殖業者の「水面だけでなく、水深ごとの酸素と生物の集まり方を確認する」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": ["水質管理", "水産生物", "設備保全", "操船", "疾病観察", "データ記録", "網作業"],
+  "relatedOccupationSlugs": ["fisher", "marine-biologist", "industrial-maintenance-technician", "food-manufacturing-technician"],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省：職業情報提供サイト job tag「水産養殖従事者」",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/503",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "水産庁：養殖業の振興について",
+      "url": "https://www.jfa.maff.go.jp/j/saibai/yousyoku_kaimen.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-17", "updatedAt": "2026-07-26", "lastReviewedAt": "2026-07-26"
+}

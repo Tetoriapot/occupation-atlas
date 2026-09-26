@@ -1,0 +1,32 @@
+{
+  "id":"occ-124","slug":"astronomer","name":"天文学者","aliases":["天文学研究者","宇宙物理学者"],"categoryId":"research","searchFacets":{"eras":["near-future"],"regions":["space","fictional"],"situations":["outdoors","maritime","space","research-facility"]},"catchphrase":"遠い光の記録から、宇宙の歴史を読み解く。","shortDescription":"望遠鏡や衛星の観測データ、数値計算を用い、恒星、惑星、銀河、宇宙の構造を研究する。宇宙飛行士と違い、通常は地上の研究機関や観測所で仮説とデータを扱う。","keywords":["天文学","望遠鏡","観測","スペクトル","宇宙","軌道"],
+  "setting":{"eras":["現代"],"regions":["日本"],"note":"現代日本の大学や国立天文台等で、国内外の観測施設と共同研究する人物像が基準。"},
+  "overview":{"responsibilities":["研究目的に合う波長と観測施設を選び、観測提案と計画を作る。","画像・分光・時系列データを較正し、理論モデルと比較して論文化する。"],"typicalPeople":["長期の観測記録と僅かな光の変化から、巨大な現象を想像できる人が向く。"],"dailySchedule":[{"time":"09:00","title":"観測データ取得","description":"夜間観測の画像と機器ログを取り込み、欠測と天候を確認する。"},{"time":"10:30","title":"較正・解析","description":"ノイズ、標準星、装置特性を補正し、天体の位置や明るさを測る。"},{"time":"14:00","title":"国際会議","description":"共同研究者と候補天体の信頼度、追加観測と公表手順を話す。"},{"time":"20:00","title":"夜間観測","description":"観測当番では望遠鏡と天候を監視し、条件に応じて対象を切り替える。"}],"qualifications":["天文学者に一律の国家資格はない。観測設備を現地で操作する場合は、施設ごとの安全・機器操作訓練が必要になる。"],"education":["理学・工学系の大学院で天文学、物理学、観測機器や数値計算を学び、博士号を取得する例が多い。"],"workStyle":["日中の解析と夜間観測が混在し、海外施設への出張や遠隔観測がある。任期付き研究員もいる。"],"annualIncome":{"summary":"大学や研究機関の給与規程と職位で決まり、天文学者だけの一律な年収目安は置けない。","note":"所属、学位、任期、職位、海外滞在条件、地域で異なる。"},"suitableFor":["天候待ちと定型的な較正作業を苦にしない人","空の一点の変化を複数のデータで確かめられる人"]},
+  "creative":{"investigatorFeatures":["星空の正常な動きを知り、星図にない光や不自然な軌道を発見できる。","光が届いた時刻と波長を比較し、遠方の出来事の順序を復元できる。"],"likelyKnowledge":["天体物理、軌道、望遠鏡、分光、測光。","星図、天候判断、画像処理、時刻系、国際共同観測。"],"roleplayTips":["建物や人より先に空と方位を確認し、光の時刻を正確に記録する。","「今見える姿は過去の姿」と考え、目撃時刻のずれを手がかりにする。"],"personalityExamples":["一晩の好機を待つ観測家","星表の誤差にこだわる解析屋"],"everydayEvents":["星図にない暗い天体が、毎晩少しずつ地球に近づく。","異なる国の望遠鏡が、同時刻に同じ名前のない星を記録する。"],"scenarioHooks":["天文台が予定のない全天サーベイを繰り返し、停止できなくなる。","夜ごとに光が消える星の順序が、国内の旧街道の宿場順と一致する。"],"commonCharacterSettings":["発見候補を公表すべきか迷うポスドク。","山頂観測所の機器の癖を知り尽くしたオペレーター兼研究者。"]},
+  "creativeIdeas":[{"title":"宿場を消す星列","summary":"現代日本で、天文学者が夜ごとに消える星の順序と旧街道の宿場を照合する。次に消える星が示す町で、方位と時刻を記録する。","era":"現代","region":"日本"},{"title":"火星ドームの星空の間違い","summary":"近未来の火星基地で、天文学者がドーム窓から見える星の配置が日ごとに古くなることに気づく。窓と外部カメラの時刻を比べ、基地の現在位置を検証する。","era":"近未来","region":"架空の火星基地"}],
+  "scenarioSituations":[{"title":"山頂の天文台","reason":"天候と機器の制約を踏まえて観測順序を組み替え、一晩しか現れない異常天体のデータを確実に残せる。"},{"title":"豪華客船の空の観望会","reason":"海上で地平線と星の方位を基準に船位を確かめ、航海計器が示す位置と夜空の矛盾を指摘できる。"},{"title":"電波望遠鏡が囲む盆地","reason":"ノイズ源の方向を複数のアンテナから三角測量し、宇宙由来ではない地下からの周期信号を特定できる。"}],
+  "aptitude": {"investigation":5,"negotiation":1,"combat":1,"infiltration":3,"support":2,"knowledge":5,"beginnerFriendly":2},
+  "aptitudeReasons": {
+    "investigation": "調査5/5：天文学者の「星空の正常な動きを知り、星図にない光や不自然な軌道を発見できる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "knowledge": "知識5/5：天文学者の「天体物理、軌道、望遠鏡、分光、測光」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。",
+    "combat": "戦闘1/5：天文学者の「天候と機器の制約を踏まえて観測順序を組み替え、一晩しか現れない異常天体のデータを確実に残せる」という職業像が、危険な現場で行動する理由や、戦闘を避ける判断の描写につながります。"
+  },
+  "skillImages":["天文学","物理学","星図","望遠鏡","画像解析","統計","プログラミング"],"relatedOccupationSlugs":["astronaut","physicist","data-scientist","university-professor","photographer"],"featured":{},"sources":[
+    {
+      "title": "国立天文台：天文学の研究手法",
+      "url": "https://www.nao.ac.jp/faq/a0701.html",
+      "type": "education-research",
+      "supports": [
+        "responsibilities"
+      ]
+    },
+    {
+      "title": "国立天文台：研究活動",
+      "url": "https://www.nao.ac.jp/research/",
+      "type": "education-research",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],"publishedAt":"2026-07-17","updatedAt":"2026-07-26","lastReviewedAt":"2026-07-26"
+}

@@ -1,0 +1,182 @@
+{
+  "id": "occ-003",
+  "slug": "emergency-medical-technician",
+  "name": "救急救命士",
+  "aliases": [
+    "救命士"
+  ],
+  "categoryId": "medical",
+  "searchFacets": {"eras":["near-future"],"regions":["urban","fictional"],"situations":["disaster","transport","event"]},
+  "catchphrase": "現場と病院の間で、命をつなぐ初動を担う。",
+  "shortDescription": "救急現場で傷病者を観察・処置し、適切な医療機関へ搬送する。消防機関に所属する救急隊員として働く例が多い。",
+  "keywords": [
+    "救急",
+    "EMT",
+    "搬送",
+    "救命処置",
+    "消防",
+    "災害"
+  ],
+  "setting": {
+    "eras": [
+      "現代"
+    ],
+    "regions": [
+      "日本"
+    ],
+    "note": "現代日本の救急現場で搬送と救命処置に携わる救急救命士像が基準。所属機関と運用体制で業務は異なる。"
+  },
+  "overview": {
+    "responsibilities": [
+      "現場の安全を確認し、傷病者の緊急度と状態を評価する。",
+      "必要な処置を行いながら医療機関と連絡し、安全に搬送する。"
+    ],
+    "typicalPeople": [
+      "緊迫した現場でチームと動き、人を直接助けたい人が目指すことが多い。"
+    ],
+    "dailySchedule": [
+      {
+        "time": "08:30",
+        "title": "車両・資器材点検",
+        "description": "救急車と医療資器材を確認し、出動に備える。"
+      },
+      {
+        "time": "11:20",
+        "title": "救急出動",
+        "description": "通報内容を基に現場へ向かい、観察・処置・搬送を行う。"
+      },
+      {
+        "time": "15:00",
+        "title": "記録と訓練",
+        "description": "活動記録を作成し、想定訓練や知識の更新を行う。"
+      },
+      {
+        "time": "19:40",
+        "title": "搬送後の再点検",
+        "description": "帰署後に使用資器材を補充・消毒し、次の要請へ出られる状態へ戻す。"
+      }
+    ],
+    "qualifications": [
+      "救急救命処置を業務として行うには救急救命士免許が必要。消防職員になる採用経路は自治体ごとに異なる。"
+    ],
+    "education": [
+      "大学・専門学校などの養成課程、または消防機関内の所定経路を経て国家試験を受ける例がある。"
+    ],
+    "workStyle": [
+      "消防機関では交替制勤務と待機が中心。病院や民間救急など別の勤務先もある。"
+    ],
+    "annualIncome": {
+      "summary": "消防職員としてはおおむね350万〜600万円程度が目安に挙がるが、勤続で変化する。",
+      "note": "自治体、所属、経験、交替勤務や手当、雇用形態によって異なる概算。"
+    },
+    "suitableFor": [
+      "短時間で状況を整理できる人",
+      "体力と冷静さを保ちながら連携できる人"
+    ]
+  },
+  "creative": {
+    "investigatorFeatures": [
+      "事故・災害現場へ自然に立ち入り、傷の状態から直前の出来事を推測できる。",
+      "通報内容、現場の危険、傷病者の所見を短時間で照合し、説明と合わない受傷機転を見つけやすい。"
+    ],
+    "likelyKnowledge": [
+      "救命処置、災害現場の安全管理、搬送経路、無線連絡。",
+      "緊急度判定、救急資器材、医療機関選定、消防指令から病院引き継ぎまでの情報の流れ。"
+    ],
+    "roleplayTips": [
+      "現場到着直後に危険、人数、呼吸の順で確認する癖を見せる。",
+      "焦る仲間には短い指示を出し、処置と同時に『いつ、どこで、何が起きたか』を簡潔に聞き取る。"
+    ],
+    "personalityExamples": [
+      "決断が速い実務家",
+      "任務後に感情を振り返る繊細な人"
+    ],
+    "everydayEvents": [
+      "食事を始めた直後に出動指令が入り、そのまま戻れなくなる。",
+      "搬送先で引き継いだ直後、車内に傷病者のものではない濡れた足跡が残っている。"
+    ],
+    "scenarioHooks": [
+      "同じ住所から、存在しない住人を対象とする救急要請が繰り返される。",
+      "山中の単独事故へ向かうと、通報者が語った車両だけがなく負傷者だけが道路に残されている。"
+    ],
+    "commonCharacterSettings": [
+      "大事故で救った生存者と今も連絡を取る救命士。",
+      "現場の安全確認を最優先するため、無謀な英雄扱いを嫌うベテラン救急隊員。"
+    ]
+  },
+  "creativeIdeas": [
+    {
+      "title": "住人のいない救急要請",
+      "summary": "食事を始めた直後に出動指令が入り、そのまま戻れなくなる。同じ住所から、存在しない住人を対象とする救急要請が繰り返される。空振りを恐れず出動する判断が、次の救命につながる。",
+      "era": "現代",
+      "region": "日本"
+    },
+    {
+      "title": "垂直都市の未登録救難",
+      "summary": "救命士が搬送ドローンから、存在しない階層の救難要請を受け取る。限られた時間で経路と傷病者情報を確かめる。",
+      "era": "近未来",
+      "region": "架空の垂直都市"
+    }
+  ],
+  "scenarioSituations": [
+    {
+      "title": "大規模災害現場",
+      "reason": "傷病者の緊急度を判断しながら活動するため、被害状況と合わない外傷を最初に目撃する役になりやすい。"
+    },
+    {
+      "title": "高速道路の多重事故",
+      "reason": "車内救出と搬送経路を組み立てる過程で、事故車両の共通点や姿を消した同乗者に気づく余地がある。"
+    },
+    {
+      "title": "大規模イベント会場",
+      "reason": "救護所で多様な体調不良へ対応し、別々の来場者に同時発生する説明困難な症状を比較できる。"
+    }
+  ],
+  "aptitude": {"investigation":3,"negotiation":3,"combat":3,"infiltration":4,"support":5,"knowledge":4,"beginnerFriendly":3},
+  "aptitudeReasons": {
+    "support": "サポート5/5：救急救命士の「現場の安全を確認し、傷病者の緊急度と状態を評価する」という職業像が、仲間の判断と行動を支える役づくりにつながります。",
+    "infiltration": "潜入4/5：救急救命士の「同じ住所から、存在しない住人を対象とする救急要請が繰り返される」という職業像が、人目を避けて現場へ近づく場面の説得力につながります。",
+    "beginnerFriendly": "初心者おすすめ3/5：救急救命士の「現場到着直後に危険、人数、呼吸の順で確認する癖を見せる」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": [
+    "救命処置",
+    "観察",
+    "運転",
+    "無線",
+    "危険予測",
+    "緊急度判定"
+  ],
+  "relatedOccupationSlugs": [
+    "doctor",
+    "nurse",
+    "firefighter"
+  ],
+  "featured": {
+    "recommendedRank": 4
+  },
+  "sources":[
+    {
+      "title": "厚生労働省 職業情報提供サイト（job tag）：救急救命士",
+      "url": "https://shigoto.mhlw.go.jp/Occupation/Detail?occupationId=401",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "厚生労働省：救急救命士国家試験の施行",
+      "url": "https://www.mhlw.go.jp/kouseiroudoushou/shikaku_shiken/kyukyukyumeishi/",
+      "type": "government",
+      "supports": [
+        "qualifications"
+      ]
+    }
+  ],
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-07-26",
+  "lastReviewedAt": "2026-07-26"
+}

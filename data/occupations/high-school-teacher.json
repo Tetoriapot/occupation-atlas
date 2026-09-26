@@ -1,0 +1,182 @@
+{
+  "id": "occ-009",
+  "slug": "high-school-teacher",
+  "name": "高校教員",
+  "aliases": [
+    "高等学校教員",
+    "高校教師"
+  ],
+  "categoryId": "education",
+  "searchFacets": {"eras":["taisho-1920s"],"regions":["rural","fictional"],"situations":["school","museum","criminal-case","event","everyday"]},
+  "catchphrase": "専門教科を通して、青年期の選択と成長に伴走する。",
+  "shortDescription": "担当教科の授業と評価、進路・生活指導、学校行事や部活動などを担う。生徒が社会へ進む時期に関わる。",
+  "keywords": [
+    "高校",
+    "授業",
+    "進路指導",
+    "部活動",
+    "専門教科"
+  ],
+  "setting": {
+    "eras": [
+      "現代"
+    ],
+    "regions": [
+      "日本"
+    ],
+    "note": "現代日本の高等学校で専門教科と生徒支援を担う教員像が基準。学校種、担当教科、校務分掌で勤務は変わる。"
+  },
+  "overview": {
+    "responsibilities": [
+      "専門教科の授業を設計し、学習成果を評価する。",
+      "生徒の進路選択や学校生活を支援し、家庭・関係機関と連携する。"
+    ],
+    "typicalPeople": [
+      "一つの学問分野を深く学びつつ、若者の成長を支えたい人が目指すことが多い。"
+    ],
+    "dailySchedule": [
+      {
+        "time": "08:00",
+        "title": "教材・連絡確認",
+        "description": "授業資料と校務予定、生徒からの連絡を確認する。"
+      },
+      {
+        "time": "08:40",
+        "title": "授業・生徒対応",
+        "description": "複数学級で授業し、休み時間には質問や相談へ応じる。"
+      },
+      {
+        "time": "16:00",
+        "title": "校務・部活動",
+        "description": "採点、会議、進路資料の作成や部活動指導を行う。"
+      },
+      {
+        "time": "18:30",
+        "title": "評価と進路資料の更新",
+        "description": "答案やレポートを採点し、模試結果と志望先の条件を照合して面談記録を整える。"
+      }
+    ],
+    "qualifications": [
+      "担当教科と高校に対応する教員免許状が原則として必要。採用条件は学校・設置者により異なる。"
+    ],
+    "education": [
+      "大学などで担当教科と教職課程を学び、教育実習を経て免許状を取得する例が一般的。"
+    ],
+    "workStyle": [
+      "授業以外に採点、校務、進路指導、行事、部活動がある。休日活動の有無は担当や学校による。"
+    ],
+    "annualIncome": {
+      "summary": "常勤ではおおむね350万〜700万円程度が一つの目安で、勤続や役職で変化する。",
+      "note": "公私立、地域、所属、経験、担当、雇用形態によって異なる概算。"
+    },
+    "suitableFor": [
+      "専門知識を平易に伝えられる人",
+      "生徒の自立を尊重しつつ境界線を守れる人"
+    ]
+  },
+  "creative": {
+    "investigatorFeatures": [
+      "専門教科を軸に調査でき、生徒・卒業生・地域へ広い接点を持つ。",
+      "答案や活動記録の変化から、生徒が隠している関心や外部との接触を推測しやすい。"
+    ],
+    "likelyKnowledge": [
+      "担当教科、青年期の心理、進学制度、校内施設と記録。",
+      "部活動の大会日程、卒業生名簿、推薦や進路選択に関する学校内の手続。"
+    ],
+    "roleplayTips": [
+      "専門外でもつい板書するように論点を整理してしまう。",
+      "生徒を未熟者と決めつけず、どこまで話すか本人に選ばせながら責任の境界を示す。"
+    ],
+    "personalityExamples": [
+      "情熱的な教科オタク",
+      "距離感を大切にする進路指導担当"
+    ],
+    "everydayEvents": [
+      "提出されたレポートに、生徒が知るはずのない古文書の一節を見つける。",
+      "同じ進路希望を書いた生徒たちが、地図に存在しない大学の資料請求番号を共有している。"
+    ],
+    "scenarioHooks": [
+      "卒業アルバムから毎年同じ顔の生徒が見つかる。",
+      "廃部になった天文部の観測記録に、次の文化祭で起きる事故の時刻が記されている。"
+    ],
+    "commonCharacterSettings": [
+      "郷土史部の顧問を務める社会科教員。",
+      "進学実績より生徒本人の選択を優先し、管理職と衝突しがちな理科教員。"
+    ]
+  },
+  "creativeIdeas": [
+    {
+      "title": "毎年同じ顔の卒業生",
+      "summary": "提出されたレポートに、生徒が知るはずのない古文書の一節を見つける。卒業アルバムから毎年同じ顔の生徒が見つかる。生徒を巻き込まず、学校の記録と卒業生の証言を集める。",
+      "era": "現代",
+      "region": "日本"
+    },
+    {
+      "title": "廃部日誌の追試問題",
+      "summary": "教員が廃部になった研究会の日誌から、次の試験と同じ問題を見つける。卒業生の足跡と校内の旧資料室を調べる。",
+      "era": "1920年代風",
+      "region": "架空の地方学園"
+    }
+  ],
+  "scenarioSituations": [
+    {
+      "title": "夜の高校校舎",
+      "reason": "教科準備や生徒対応で残る理由があり、校則と時間割では説明できない放送や無人の授業を調べられる。"
+    },
+    {
+      "title": "修学旅行先",
+      "reason": "思春期の生徒を引率する責任から、班行動中の失踪を追いつつ生徒が隠す計画にも向き合う必要が生まれる。"
+    },
+    {
+      "title": "文化祭の準備期間",
+      "reason": "部活動、保護者、卒業生が交わる時期に、古い展示物を復活させた生徒たちの変化を観察できる。"
+    }
+  ],
+  "aptitude": {"investigation":3,"negotiation":4,"combat":1,"infiltration":3,"support":4,"knowledge":3,"beginnerFriendly":4},
+  "aptitudeReasons": {
+    "negotiation": "交渉4/5：高校教員の「専門外でもつい板書するように論点を整理してしまう」という職業像が、会話から情報や協力を引き出す役づくりにつながります。",
+    "support": "サポート4/5：高校教員の「専門教科の授業を設計し、学習成果を評価する」という職業像が、仲間の判断と行動を支える役づくりにつながります。",
+    "combat": "戦闘1/5：高校教員の「教科準備や生徒対応で残る理由があり、校則と時間割では説明できない放送や無人の授業を調べられる」という職業像が、危険な現場で行動する理由や、戦闘を避ける判断の描写につながります。"
+  },
+  "skillImages": [
+    "専門教科",
+    "説明",
+    "進路相談",
+    "文書作成",
+    "観察",
+    "進捗管理"
+  ],
+  "relatedOccupationSlugs": [
+    "junior-high-school-teacher",
+    "university-professor",
+    "university-student",
+    "school-counselor"
+  ],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省 職業情報提供サイト（job tag）：高等学校教員",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/183",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "文部科学省：教員免許状を取得できる大学",
+      "url": "https://www.mext.go.jp/a_menu/shotou/kyoin/daigaku/1286948.htm",
+      "type": "government",
+      "supports": [
+        "qualifications",
+        "education"
+      ]
+    }
+  ],
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-07-26",
+  "lastReviewedAt": "2026-07-26"
+}

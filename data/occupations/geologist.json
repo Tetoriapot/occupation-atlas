@@ -1,0 +1,31 @@
+{
+  "id":"occ-125","slug":"geologist","name":"地質学者","aliases":["地質学研究者","地球科学者"],"categoryId":"research","searchFacets":{"eras":["taisho-1920s"],"regions":["overseas","fictional"],"situations":["ruins","outdoors","disaster","maritime","transport"]},"catchphrase":"岩石と地層を歩き、大地の履歴を地図にする。","shortDescription":"地形、地層、岩石、化石を野外調査と分析で読み、地球の履歴、資源、地震・火山等の知見につなげる。建設地点の安全性を判定する地質調査技術者より研究対象と時間尺度が広い。","keywords":["地質","地層","岩石","地質図","フィールドワーク","火山"],"setting":{"eras":["現代"],"regions":["日本"],"note":"現代日本の産総研、大学、建設・資源関連機関で野外調査と分析を行う人物像が基準。"},
+  "overview":{"responsibilities":["地形図と先行資料から露頭を選び、地層の向き、厚さ、岩石を記録・採取する。","試料の年代・鉱物・粒度等を分析し、地質図と報告書を更新する。"],"typicalPeople":["急斜面でも安全を優先しつつ、岩石の小さな違いを地域全体の成り立ちに繋げられる人が向く。"],"dailySchedule":[{"time":"08:00","title":"行程・気象確認","description":"天候、土砂災害情報、入山許可、退避経路と調査地点を確かめる。"},{"time":"09:30","title":"露頭調査","description":"クリノメーターで地層の姿勢を測り、スケッチ、撮影、採取を行う。"},{"time":"14:00","title":"調査線の照合","description":"谷の反対側やボーリング資料と比べ、地層の連続と断層を判断する。"},{"time":"17:00","title":"試料整理","description":"採取番号と座標を照合し、切片観察や次回の分析項目を決める。"}],"qualifications":["研究職に一律の必須資格はない。業務により技術士や民間資格の地質調査技士等が評価される場合はあるが、用途と所属で異なる。"],"education":["理学・工学系で地質学、地球物理学、地球化学を学び、大学院で野外調査と論文を積む人が多い。"],"workStyle":["山地・海岸の現地調査、実験室分析、地理情報システムでの図化を往復する。天候と災害対応で日程が変わる。"],"annualIncome":{"summary":"公的研究機関、大学、建設コンサルタント等で給与体系が異なり、研究者だけの統一的な目安はない。","note":"所属、学位、資格、調査地域、出張、任期、経験で異なる。"},"suitableFor":["屋外で安全に行動し、座標と採取層を正確に残せる人","一つの岩石を地域全体の地史へ結び付けられる人"]},
+  "creative":{"investigatorFeatures":["地面の不自然な陥没、断層、古い地滑りの痕跡を地形から読める。","土砂や砂利の出所を鉱物と層序で絞り、移動経路を推測できる。"],"likelyKnowledge":["地質学、鉱物学、地形、地震・火山、年代学。","地質図、測量、GIS、ボーリング柱状図、野外安全。"],"roleplayTips":["石を拾う前に周囲の地層と座標を記録し、新鮮な割れ口と風化面を比べる。","崩落の兆候があれば調査より退避を優先し、安全な場所から全体像をスケッチする。"],"personalityExamples":["岩石ハンマーを持つ現場派","地質図の空白を放っておけない図化屋"],"everydayEvents":["雨の翌朝、地質図にない真っ黒な地層が山腹に露出する。","採取した岩石の磁化方向が、北ではなく地下の同じ一点を指す。"],"scenarioHooks":["トンネル工事で想定地質と全く異なる空洞が現れ、緊急調査に呼ばれる。","離島の海岸から、島の成立年代より新しいはずの埋没林が見つかる。"],"commonCharacterSettings":["過去の火山調査で同僚を失い、退避基準に厳しい研究者。","公開前の地質図にある空白地帯を個人で追う調査員。"]},
+  "creativeIdeas":[{"title":"雨後に露出する黒い層","summary":"現代日本の山間部で、地質学者が強雨の後だけ現れる黒い地層を調査する。斜面の安全を確保し、古地図と試料の年代から層が消える条件を追う。","era":"現代","region":"日本"},{"title":"赤い砂漠の反転した地層","summary":"架空の砂漠王国で、地質学者が上下逆に堆積した巨大な地層を見つける。方位磁針と化石の配列を比べ、古い城塞が埋まる位置を絞る。","era":"1920年代風","region":"架空の砂漠王国"}],
+  "scenarioSituations":[{"title":"山岳トンネルの切羽","reason":"掘削面の岩種、割れ目、湧水を読み、図面にない空洞に入る前に崩落危険と地層の続きを判断できる。"},{"title":"噴火後の火山麓","reason":"火山灰の層厚と噴出物の種類から危険区域を読み、避難路を選びながら新たな噴気口の位置を探れる。"},{"title":"孤島の海食洞","reason":"潮位と岩盤の割れ目を照合し、浸水時刻より前に洞窟の成り立ちと奥に続く安定した層準を特定できる。"}],
+  "aptitude":{"investigation": 5, "negotiation": 2, "combat": 2, "infiltration": 3, "support": 3, "knowledge": 5, "beginnerFriendly": 2},
+  "aptitudeReasons": {
+    "investigation": "調査5/5：地質学者の「地面の不自然な陥没、断層、古い地滑りの痕跡を地形から読める」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "knowledge": "知識5/5：地質学者の「地質学、鉱物学、地形、地震・火山、年代学」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ2/5：地質学者の「石を拾う前に周囲の地層と座標を記録し、新鮮な割れ口と風化面を比べる」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages":["地質学","鉱物学","測量","地質図","登山","試料分析","災害知識"],"relatedOccupationSlugs":["geological-survey-engineer","construction-consultant","civil-engineer","archaeologist","physicist"],"featured":{},"sources":[
+    {
+      "title": "産総研 地質調査総合センター：研究・地質情報",
+      "url": "https://www.gsj.jp/HomePageJP.html",
+      "type": "public-information",
+      "supports": [
+        "responsibilities"
+      ]
+    },
+    {
+      "title": "産総研 地質調査総合センター：業務概要",
+      "url": "https://www.gsj.jp/information/overview/index.html",
+      "type": "public-information",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],"publishedAt":"2026-07-17","updatedAt":"2026-07-26","lastReviewedAt":"2026-07-26"
+}

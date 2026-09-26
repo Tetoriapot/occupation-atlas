@@ -1,0 +1,31 @@
+{
+  "id":"occ-126","slug":"marine-biologist","name":"海洋生物学者","aliases":["海洋生態学者","海洋生物研究者"],"categoryId":"research","searchFacets":{"eras":["near-future"],"regions":["urban","maritime","fictional"],"situations":["closed","maritime","research-facility"]},"catchphrase":"海の環境と生き物を、船上と実験室でつなぐ。","shortDescription":"沿岸から深海までの生物、生態系、環境変化を、調査船、潜水、環境DNA、飼育実験等で研究する。","keywords":["海洋生物","調査船","深海","環境DNA","生態系","潜水"],"setting":{"eras":["現代"],"regions":["日本"],"note":"現代日本のJAMSTEC、大学、水産・水族館関連機関で、船上調査と陸上解析を行う人物像が基準。"},
+  "overview":{"responsibilities":["水温、塩分、水深と生物分布を考慮し、採水・採泥・撮影の調査線を設計する。","標本と環境データを分類・解析し、生物多様性や人間活動の影響を評価する。"],"typicalPeople":["船酔いや不規則な採集時刻に対応しつつ、標本と海況を正確に結び付けられる人が向く。"],"dailySchedule":[{"time":"06:00","title":"調査点確認","description":"海況、風、潮流と機材固縛を確認し、船長と投入手順を共有する。"},{"time":"08:00","title":"採水・映像調査","description":"水深ごとに試料を採り、無人潜水機の映像と座標を同期させる。"},{"time":"13:00","title":"船上前処理","description":"標本を撮影・識別し、冷凍、固定、ろ過など目的に合う方法で保存する。"},{"time":"19:00","title":"データ照合","description":"船位と海況ログを標本番号に紐付け、次の調査点を調整する。"}],"qualifications":["研究職に共通の必須国家資格はない。潜水、船舶、高圧ガス等の業務では当該作業の資格・訓練が必要な場合がある。"],"education":["理学・農学・水産学・環境科学系の大学院で、分類、生態、分子生物学、海洋観測を学ぶ人が多い。"],"workStyle":["数日から数週間の調査航海と、研究所での飼育・遺伝子解析・論文作成を行き来する。"],"annualIncome":{"summary":"大学、公的研究機関、民間法人の給与規程により、海洋生物学者としての単一の年収目安は示せない。","note":"所属、学位、任期、航海日数、専門、職位、地域で異なる。"},"suitableFor":["狭い船内でも他職種と協力し、採集手順を守れる人","小さな生物の同定と広い海域の環境変化を両方考えられる人"]},
+  "creative":{"investigatorFeatures":["海辺の痕跡、魚の行動、水質から海中で起きた変化を推測できる。","目に見えない生物の存在を環境DNAで追い、映像と食い違う分布を手がかりにできる。"],"likelyKnowledge":["海洋生態学、分類学、環境DNA、水質、潮流。","調査船安全、採水、潜水調査、標本保存、生物多様性データ。"],"roleplayTips":["生物の名前だけでなく、水深、水温、時刻、行動をセットで記録する。","珍しい個体を必要以上に採らず、海況が悪化したらデータより人命を優先する。"],"personalityExamples":["生物を一見で見分ける分類家","船上でも冷静な調査主任"],"everydayEvents":["海水に含まれるDNAが、海底の地形と同じ順番で一斉に消える。","潜水機の映像にだけ、調査船より大きな影が船を追っている。"],"scenarioHooks":["漁港に未知の深海生物が大量に打ち上がり、調査班が招集される。","遠隔無人機が予定外の深度から信号を送り続け、回収航海が組まれる。"],"commonCharacterSettings":["深海映像の一フレームを公開できない研究者。","騒音を出さない採集法にこだわり、漁業者と信頼を築いた生態学者。"]},
+  "creativeIdeas":[{"title":"漁港に返された深海群","summary":"現代日本の漁港で、海洋生物学者が生きたまま打ち上がる深海生物を調べる。水温と潮流を逆算し、生物が逃げてきた海底区画を特定する。","era":"現代","region":"日本"},{"title":"海底都市の白い海","summary":"近未来の海底都市で、海洋生物学者が窓の外だけに広がる白化現象を調べる。微生物、化学物質、映像系の異常を切り分けて居住区の閉鎖を判断する。","era":"近未来","region":"架空の海底都市"}],
+  "scenarioSituations":[{"title":"調査船の深海航海","reason":"採取容器と潜水機の映像を同じ水深・時刻で照合し、船下を追尾する未知生物の行動と逃げ場を読める。"},{"title":"孤島の臨海実験所","reason":"潮間帯の生物相を毎日比較し、食物網の一部だけが消える異変を水質・捕食痕・環境DNAから追跡できる。"},{"title":"閉鎖された水族館","reason":"飼育水の循環、給餌、個体のストレス反応を別々に確認し、全水槽の生物が同じ場所を見続ける原因を探れる。"}],
+  "aptitude":{"investigation": 5, "negotiation": 2, "combat": 3, "infiltration": 4, "support": 3, "knowledge": 5, "beginnerFriendly": 2},
+  "aptitudeReasons": {
+    "investigation": "調査5/5：海洋生物学者の「海辺の痕跡、魚の行動、水質から海中で起きた変化を推測できる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "knowledge": "知識5/5：海洋生物学者の「海洋生態学、分類学、環境DNA、水質、潮流」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ2/5：海洋生物学者の「生物の名前だけでなく、水深、水温、時刻、行動をセットで記録する」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages":["海洋生物学","環境DNA","潜水","船上作業","水質分析","分類","標本保存"],"relatedOccupationSlugs":["life-science-researcher","geologist","farmer","weather-agency-officer"],"featured":{},"sources":[
+    {
+      "title": "海洋研究開発機構：海洋生物環境影響研究センター",
+      "url": "https://www.jamstec.go.jp/bioenv/j/",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    },
+    {
+      "title": "海洋研究開発機構：海洋生物多様性情報システムBISMaL",
+      "url": "https://www.godac.jamstec.go.jp/bismal/j/about.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],"publishedAt":"2026-07-17","updatedAt":"2026-07-26","lastReviewedAt":"2026-07-26"
+}

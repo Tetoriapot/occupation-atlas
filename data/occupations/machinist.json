@@ -1,0 +1,77 @@
+{
+  "id": "occ-160", "slug": "machinist", "name": "機械加工技能者", "aliases": ["旋盤工", "マシニングオペレーター"], "categoryId": "manufacturing",
+  "searchFacets": {"eras":["near-future"],"regions":["space","fictional"],"situations":["ruins","disaster","factory","everyday"]},
+  "catchphrase": "図面の寸法を、刃先と金属の手触りへ変える。",
+  "shortDescription": "旋盤、フライス盤、マシニングセンタなどで金属を切削・研削し、図面通りの部品へ仕上げる技能者。設計責任ではなく、段取り、加工、測定、補正によって要求精度を実物にする。",
+  "keywords": ["旋盤", "フライス", "NC加工", "切削", "公差", "測定"],
+  "setting": {"eras": ["現代"], "regions": ["日本"], "note": "現代日本の町工場から量産工場までで汎用・NC工作機械を扱う技能者像。機種、材質、単品加工か量産かで技能構成は異なる。"},
+  "overview": {
+    "responsibilities": ["図面の寸法、公差、材質を読み、工作機械、刃具、固定方法、加工順序を選んで段取りする。", "加工途中と完成後に測定し、工具摩耗や熱変位を補正して部品を指定精度へ収める。"],
+    "typicalPeople": ["回転体への警戒を保ちながら、微小な音や切りくずの変化へ集中できる人。", "加工失敗を隠さず、条件と測定値から次の一手を考えられる人。"],
+    "dailySchedule": [
+      {"time": "08:00", "title": "図面と素材確認", "description": "材料証明、寸法、公差、基準面を照合し、加工順を頭の中で組み立てる。"},
+      {"time": "09:00", "title": "段取り・試削", "description": "治具と刃具を取り付け、干渉を避けながら最初の一個を慎重に削る。"},
+      {"time": "12:45", "title": "連続加工", "description": "切りくず、音、負荷を監視し、工具摩耗に合わせて補正値を調整する。"},
+      {"time": "16:00", "title": "最終測定と清掃", "description": "測定温度を意識して仕上がりを記録し、切粉を除去して機械を点検する。"}
+    ],
+    "qualifications": ["入職に一律の必須資格は通常ない。機械加工技能士は技能を示す国家検定で、砥石の取替え等には対象業務の特別教育が必要になる。"],
+    "education": ["工業高校、職業能力開発校、専門学校等で学ぶほか、工場で補助作業から段取りと測定を習得する経路がある。"],
+    "workStyle": ["工場内の立ち作業が中心で、日勤または交替勤務。回転部、切粉、切削油への安全対策と保護具の適切な使用が欠かせない。"],
+    "annualIncome": {"summary": "加工難度、扱う機械、熟練度、量産・試作の別で処遇差が大きく、技能職として勤務先規定に左右される。", "note": "地域、雇用形態、交替勤務、技能検定、段取り責任、残業により変わるため公的統計も広い職業分類の目安となる。"},
+    "suitableFor": ["安全距離を守りながら細かな変化へ集中できる人", "数値と手触りの両方で精度を確かめたい人"]
+  },
+  "creative": {
+    "investigatorFeatures": ["刃物痕、バリ、表面粗さから、どの機械と加工順で作られた部品か推測できる。", "ノギスやマイクロメータで微小な寸法差を拾い、同じに見える偽物を識別できる。"],
+    "likelyKnowledge": ["機械製図、公差、金属材料、切削条件、NCプログラム。", "旋盤、フライス、研削、刃具、精密測定、治具。"],
+    "roleplayTips": ["品物を手にしたら、基準面と加工痕を光に当てて眺める。", "機械を止めてから切粉を処理し、手袋を回転部へ近づけない。"],
+    "personalityExamples": ["千分の一を気にする寡黙な職人", "古い汎用機と最新NCを使い分ける実験家"],
+    "everydayEvents": ["削り出した部品の内径だけが、測るたび一定量ずつ広がっている。", "図面にない微細文字が、最後の仕上げ面から浮かび上がる。"],
+    "scenarioHooks": ["犯罪現場の金属片から、閉鎖済み町工場の刃具痕を見つける。", "依頼された一品部品が、未知の装置へ寸分違わず収まってしまう。"],
+    "commonCharacterSettings": ["師匠の工場と正体不明の注文帳を継いだ若手旋盤工。", "事故品の寸法記録を密かに保存する元量産班長。"]
+  },
+  "creativeIdeas": [
+    {"title": "膨張する内径", "summary": "現代日本の町工場で、機械加工技能者が作ったリングは測定するたび同じ量だけ内径が増える。温度と測定器を疑い、素材の来歴へたどり着く。", "era": "現代", "region": "日本"},
+    {"title": "月面工房の欠けた歯車", "summary": "月面基地の工作機械でしか作れない歯車が生命維持装置から抜かれる。技能者は低重力下の加工痕を読み、偽造部品の製作者を探す。", "era": "近未来", "region": "架空の月面基地"}
+  ],
+  "scenarioSituations": [
+    {"title": "町工場の密室", "reason": "加工痕と機械の段取りを見れば、施錠中に誰がどの設備を使い、何を作ったか推測しやすい。"},
+    {"title": "試作部品の連続事故", "reason": "図面値、素材、工具、測定記録を順に比較し、意図的に仕込まれたわずかな寸法違いを発見できる。"},
+    {"title": "遺跡の金属機構", "reason": "未知の材質でも加工方向と嵌合部を観察し、壊さず動かすための部品関係を考えられる。"}
+  ],
+  "aptitude": {"investigation":3,"negotiation":1,"combat":2,"infiltration":3,"support":3,"knowledge":4,"beginnerFriendly":2},
+  "aptitudeReasons": {
+    "knowledge": "知識4/5：機械加工技能者の「機械製図、公差、金属材料、切削条件、NCプログラム」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。",
+    "investigation": "調査3/5：機械加工技能者の「刃物痕、バリ、表面粗さから、どの機械と加工順で作られた部品か推測できる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "negotiation": "交渉1/5：機械加工技能者の「品物を手にしたら、基準面と加工痕を光に当てて眺める」という職業像が、会話から情報や協力を引き出す役づくりにつながります。"
+  },
+  "skillImages": ["機械加工", "精密測定", "製図", "NC操作", "金属知識", "工具", "空間認識"],
+  "relatedOccupationSlugs": ["mechanical-engineer", "production-engineer", "welder", "industrial-maintenance-technician"],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省：職業情報提供サイト job tag「汎用金属工作機械工」",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/557",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "厚生労働省：職業情報提供サイト job tag「NC工作機械オペレーター」",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/256",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-17", "updatedAt": "2026-07-26", "lastReviewedAt": "2026-07-26"
+}

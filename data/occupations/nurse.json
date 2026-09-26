@@ -1,0 +1,185 @@
+{
+  "id": "occ-002",
+  "slug": "nurse",
+  "name": "看護師",
+  "aliases": [
+    "ナース",
+    "看護職"
+  ],
+  "categoryId": "medical",
+  "searchFacets": {"eras":["taisho-1920s"],"regions":["mountain","fictional"],"situations":["hospital","disaster"]},
+  "catchphrase": "患者の最も近くで変化を見守り、療養生活を支える。",
+  "shortDescription": "健康状態を継続的に観察し、診療の補助と生活上の援助を行う医療専門職。患者と医療チームをつなぐ役割も大きい。",
+  "keywords": [
+    "看護",
+    "病棟",
+    "観察",
+    "夜勤",
+    "チーム医療"
+  ],
+  "setting": {
+    "eras": [
+      "現代"
+    ],
+    "regions": [
+      "日本"
+    ],
+    "note": "現代日本の医療・福祉現場で療養生活と診療を支える看護師像が基準。診療領域、施設、勤務時間帯で業務は変わる。"
+  },
+  "overview": {
+    "responsibilities": [
+      "バイタルサインや表情、訴えから状態の変化を捉える。",
+      "処置の補助、服薬支援、清潔・食事など療養生活を支える。"
+    ],
+    "typicalPeople": [
+      "人と長く関わりながら、実務的なケアで役に立ちたい人が選ぶことが多い。"
+    ],
+    "dailySchedule": [
+      {
+        "time": "08:30",
+        "title": "申し送り",
+        "description": "夜勤者から患者ごとの変化と当日の予定を引き継ぐ。"
+      },
+      {
+        "time": "10:00",
+        "title": "ケアと観察",
+        "description": "検温、処置、点滴管理や生活援助を行い、小さな変化を記録する。"
+      },
+      {
+        "time": "13:30",
+        "title": "退院・生活支援",
+        "description": "本人と家族の不安を聞き、退院後の服薬、通院、日常生活について関係職種と調整する。"
+      },
+      {
+        "time": "16:00",
+        "title": "記録・次勤務への共有",
+        "description": "経過を整理し、継続して見るべき点を伝える。"
+      }
+    ],
+    "qualifications": [
+      "日本で看護師として働くには原則として看護師免許が必要。保健師・助産師などは別の資格体系となる。"
+    ],
+    "education": [
+      "大学、短期大学、看護師養成所など所定の課程を経て国家試験を受ける進路が一般的。"
+    ],
+    "workStyle": [
+      "病院では交替制勤務が多い一方、診療所、訪問看護、学校や企業など日勤中心の場もある。"
+    ],
+    "annualIncome": {
+      "summary": "常勤ではおおむね350万〜550万円程度が一つの目安として挙げられる。",
+      "note": "地域、所属、経験、夜勤回数、資格手当、雇用形態により異なる概算。"
+    },
+    "suitableFor": [
+      "小さな変化によく気づく人",
+      "忙しい場面でも優先順位を組み替えられる人"
+    ]
+  },
+  "creative": {
+    "investigatorFeatures": [
+      "怪我や疲労を見抜き、仲間の状態管理と聞き取りの両方で活躍できる。",
+      "患者の普段の様子を知る立場から、数値にはまだ表れない意識、動作、会話の変化を時系列で示せる。"
+    ],
+    "likelyKnowledge": [
+      "応急手当、衛生、薬の扱い、病院内の動線や夜間体制。",
+      "療養生活の援助、感染予防、医療機器の基本操作、患者・家族への退院支援。"
+    ],
+    "roleplayTips": [
+      "会話中も相手の顔色や姿勢を気にし、具体的なケアを提案すると自然。",
+      "一度に全部を解決しようとせず、安全、苦痛、本人の希望の順に優先順位を組み直す。"
+    ],
+    "personalityExamples": [
+      "世話焼きで肝が据わっている人",
+      "仕事と私生活をきっちり分ける人"
+    ],
+    "everydayEvents": [
+      "勤務交代の直前に急変が起き、帰宅予定が延びる。",
+      "食事量と会話が同時に減った患者について、家族の面会後だけ様子が変わることに気づく。"
+    ],
+    "scenarioHooks": [
+      "深夜の巡回中、空き病室から使用中のナースコールが鳴る。",
+      "同じ病室の患者たちが、夜勤者の誰も知らない『消灯後の回診』を受けたと話し始める。"
+    ],
+    "commonCharacterSettings": [
+      "怪談を信じない夜勤慣れした病棟看護師。",
+      "訪問看護で町の生活事情に詳しく、医療機関へ来ない人の変化も知る看護師。"
+    ]
+  },
+  "creativeIdeas": [
+    {
+      "title": "空き病室のナースコール",
+      "summary": "勤務交代の直前に急変が起き、帰宅予定が延びる。深夜の巡回中、空き病室から使用中のナースコールが鳴る。患者対応の手順を崩さず、呼出記録の主を確認する。",
+      "era": "現代",
+      "region": "日本"
+    },
+    {
+      "title": "療養所の二重カルテ",
+      "summary": "看護師が一人の患者に二冊のカルテがあり、片方にだけ不可能な脈拍が記録されていると気づく。夜勤の記憶をたどる。",
+      "era": "1920年代風",
+      "region": "架空の山間療養地"
+    }
+  ],
+  "scenarioSituations": [
+    {
+      "title": "深夜の病棟",
+      "reason": "患者の平常時を継続して観察し、巡回ごとに変わる意識状態や空床から聞こえる呼び出しへ最初に気づける。"
+    },
+    {
+      "title": "へき地の診療所",
+      "reason": "住民の生活背景まで知る身近な医療者として、同じ傷を隠す家族と集落の沈黙に丁寧に接近できる。"
+    },
+    {
+      "title": "避難所の救護所",
+      "reason": "限られた物資で体調を見守り、異なる場所から来た避難者に共通する症状を記録して警告を発せられる。"
+    }
+  ],
+  "aptitude": {"investigation":3,"negotiation":4,"combat":2,"infiltration":3,"support":5,"knowledge":4,"beginnerFriendly":3},
+  "aptitudeReasons": {
+    "support": "サポート5/5：看護師の「バイタルサインや表情、訴えから状態の変化を捉える」という職業像が、仲間の判断と行動を支える役づくりにつながります。",
+    "negotiation": "交渉4/5：看護師の「会話中も相手の顔色や姿勢を気にし、具体的なケアを提案すると自然」という職業像が、会話から情報や協力を引き出す役づくりにつながります。",
+    "combat": "戦闘2/5：看護師の「患者の平常時を継続して観察し、巡回ごとに変わる意識状態や空床から聞こえる呼び出しへ最初に気づける」という職業像が、危険な現場で行動する理由や、戦闘を避ける判断の描写につながります。"
+  },
+  "skillImages": [
+    "応急手当",
+    "観察",
+    "傾聴",
+    "衛生管理",
+    "チーム連携",
+    "状態評価"
+  ],
+  "relatedOccupationSlugs": [
+    "doctor",
+    "emergency-medical-technician",
+    "public-health-nurse",
+    "midwife",
+    "occupational-therapist"
+  ],
+  "featured": {
+    "popularRank": 4,
+    "recommendedRank": 1
+  },
+  "sources":[
+    {
+      "title": "厚生労働省：看護師国家試験の施行",
+      "url": "https://www.mhlw.go.jp/kouseiroudoushou/shikaku_shiken/kangoshi/",
+      "type": "government",
+      "supports": [
+        "qualifications"
+      ]
+    },
+    {
+      "title": "厚生労働省 職業情報提供サイト（job tag）：看護師",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail?occupationId=156",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    }
+  ],
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-07-26",
+  "lastReviewedAt": "2026-07-26"
+}

@@ -1,0 +1,190 @@
+{
+  "id": "occ-020",
+  "slug": "diplomat",
+  "name": "外交官",
+  "aliases": [
+    "外務公務員"
+  ],
+  "categoryId": "government",
+  "searchFacets": {"eras":["near-future"],"regions":["space"],"situations":["closed","disaster","criminal-case","event"]},
+  "catchphrase": "国境を越える利害と言葉を調整し、関係を築く。",
+  "shortDescription": "外交政策、国際交渉、情報収集、邦人支援などに携わる国家公務員。国内勤務と在外公館勤務を行き来することがある。",
+  "keywords": [
+    "外交",
+    "国際交渉",
+    "外国語",
+    "大使館",
+    "海外"
+  ],
+  "setting": {
+    "eras": [
+      "現代"
+    ],
+    "regions": [
+      "日本"
+    ],
+    "note": "現代日本の外交実務に携わる外交官像が基準。任地、担当分野、在外公館か本省かで生活は異なる。"
+  },
+  "overview": {
+    "responsibilities": [
+      "担当国・分野の情報を集め、分析と報告、政策調整を行う。",
+      "相手国政府との交渉、文化交流、領事・邦人支援などを担う。"
+    ],
+    "typicalPeople": [
+      "外国語と国際情勢を学び、異なる価値観の間で粘り強く調整したい人が志望する。"
+    ],
+    "dailySchedule": [
+      {
+        "time": "08:30",
+        "title": "現地情勢確認",
+        "description": "報道、公電、政府発表を確認し、重要事項を整理する。"
+      },
+      {
+        "time": "10:30",
+        "title": "会談・調整",
+        "description": "関係機関や相手国担当者と協議し、発言内容を記録する。"
+      },
+      {
+        "time": "14:30",
+        "title": "公電・案件判断",
+        "description": "会談記録と現地情報を照合し、政策部門への報告、領事案件の対応方針、次の交渉材料を整理する。"
+      },
+      {
+        "time": "18:00",
+        "title": "報告・行事対応",
+        "description": "本省へ報告を送り、必要に応じて夜の公式行事へ出席する。"
+      }
+    ],
+    "qualifications": [
+      "外務省等の採用試験・選考を経る。区分により語学や専門性が重視され、外交官という単一資格があるわけではない。"
+    ],
+    "education": [
+      "大卒程度の採用区分が中心の一つだが、専門職員など経路が複数あり、要件は募集ごとに異なる。"
+    ],
+    "workStyle": [
+      "国内外の転勤、時差をまたぐ連絡、夜間の行事、緊急時の対応がある。赴任地で生活環境が大きく変わる。"
+    ],
+    "annualIncome": {
+      "summary": "外交官だけを一括した年収は示しにくく、国家公務員の俸給と諸手当を基礎に、採用区分、職位、経歴等で決まる。在外公館勤務では法令に基づく在勤・住居等の手当が加わる場合がある。",
+      "note": "本省か在外公館か、任地、職種、勤続、職位、扶養状況等で実際の給与は大きく変わる。外務省の最新採用案内と人事院の給与説明を確認する必要がある。"
+    },
+    "suitableFor": [
+      "言葉の含意と文化差を慎重に読める人",
+      "環境の変化と長い交渉に耐えられる人"
+    ]
+  },
+  "creative": {
+    "investigatorFeatures": [
+      "外国語、在外人脈、公的交渉の経験があり、国際的な事件へ自然に関われる。",
+      "公開情報と非公開の会談記録を分け、発言そのものより誰が何を言わなかったかから情勢変化を読める。"
+    ],
+    "likelyKnowledge": [
+      "国際情勢、外交儀礼、外国語、渡航・領事手続、各国文化。",
+      "条約・共同声明の構造、公電、在外公館の危機対応、報道発表と非公式説明の使い分け。"
+    ],
+    "roleplayTips": [
+      "断定を避け、相手の面子と自国の立場を同時に守る表現を選ぶ。",
+      "質問へ直接答えられないときも沈黙せず、確認済みの範囲と次に連絡できる時刻を提示する。"
+    ],
+    "personalityExamples": [
+      "柔和で腹の内を見せない交渉家",
+      "文化交流に情熱を持つ理想家"
+    ],
+    "everydayEvents": [
+      "公式招待状の席次に、実在しない国の代表名が印刷されている。",
+      "現地紙の小さな死亡記事に、翌週会談する予定の交渉相手と同じ氏名・写真が載る。"
+    ],
+    "scenarioHooks": [
+      "閉鎖された領事館から、二十年前の暗号電文が再送される。",
+      "国外退避名簿に旅券記録のない邦人が一人混じり、複数国の担当者がその人物だけを引き渡すよう求める。"
+    ],
+    "commonCharacterSettings": [
+      "任地で消えた前任者の非公式記録を受け継ぐ外交官。",
+      "専門地域の方言と文化に精通する一方、長い国外生活で日本の日常感覚が少しずれた外務省専門職員。"
+    ]
+  },
+  "creativeIdeas": [
+    {
+      "title": "実在しない国の代表席",
+      "summary": "公式招待状の席次に、実在しない国の代表名が印刷されている。閉鎖された領事館から、二十年前の暗号電文が再送される。公表すれば交渉が崩れる情報を、儀礼の中で確かめる。",
+      "era": "現代",
+      "region": "日本"
+    },
+    {
+      "title": "月面中立区の翻訳",
+      "summary": "停戦文書を調整する外交官が、各言語版で一条だけ意味が反転していると知る。交渉を壊さず翻訳の改変者を探る。",
+      "era": "近未来",
+      "region": "月面の中立居住区"
+    }
+  ],
+  "scenarioSituations": [
+    {
+      "title": "在外公館",
+      "reason": "邦人保護と外交連絡を担うため、国外で起きた失踪や現地当局が伏せる事件へ公的に関与できる。"
+    },
+    {
+      "title": "国際会議",
+      "reason": "立場の異なる代表団の発言を読み分け、議題の裏で進む取引や不自然な共同声明を交渉から探れる。"
+    },
+    {
+      "title": "政変下の国外退避",
+      "reason": "限られた情報で避難経路と優先順位を決め、協力国との調整を通じて孤立した一行を導く役になれる。"
+    }
+  ],
+  "aptitude": {"investigation":3,"negotiation":5,"combat":2,"infiltration":3,"support":3,"knowledge":5,"beginnerFriendly":2},
+  "aptitudeReasons": {
+    "negotiation": "交渉5/5：外交官の「断定を避け、相手の面子と自国の立場を同時に守る表現を選ぶ」という職業像が、会話から情報や協力を引き出す役づくりにつながります。",
+    "knowledge": "知識5/5：外交官の「国際情勢、外交儀礼、外国語、渡航・領事手続、各国文化」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ2/5：外交官の「断定を避け、相手の面子と自国の立場を同時に守る表現を選ぶ」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": [
+    "外国語",
+    "国際情勢",
+    "交渉",
+    "礼法",
+    "情報分析",
+    "危機対応"
+  ],
+  "relatedOccupationSlugs": [
+    "national-government-administrative-officer",
+    "immigration-inspector",
+    "journalist",
+    "lawyer"
+  ],
+  "featured": {
+    "recommendedRank": 5
+  },
+  "sources":[
+    {
+      "title": "外務省：採用情報・外務省の仕事",
+      "url": "https://www.mofa.go.jp/mofaj/annai/saiyo/",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "外務省：総合職・専門職・一般職の職種紹介",
+      "url": "https://www.mofa.go.jp/mofaj/annai/saiyo/works.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    },
+    {
+      "title": "人事院：国家公務員の仕事と給与の紹介",
+      "url": "https://www.jinji.go.jp/saiyo/syokai.html",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "annualIncome"
+      ]
+    }
+  ],
+  "publishedAt": "2026-06-22",
+  "updatedAt": "2026-07-26",
+  "lastReviewedAt": "2026-07-26"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "occ-164", "slug": "food-manufacturing-technician", "name": "食品製造技術者", "aliases": ["食品生産技術者", "食品工場技術者"], "categoryId": "manufacturing",
+  "searchFacets": {"eras":["near-future"],"regions":["polar","fictional"],"situations":["closed","outdoors","maritime","factory"]},
+  "catchphrase": "味と安全を、原料から出荷まで同じ条件で守る。",
+  "shortDescription": "加工食品の製造条件、衛生管理、設備運用、製品切替を技術面から整える。個別製品を手仕事で仕上げる菓子・パン職人とは異なり、複数人と設備で再現できる標準工程を作る。",
+  "keywords": ["食品工場", "HACCP", "加熱", "冷却", "衛生", "トレーサビリティ"],
+  "setting": {"eras": ["現代"], "regions": ["日本"], "note": "現代日本の食品メーカーで製造工程の技術管理を担う職業像。食品種類、工場規模、開発・品質部門との分担により責任範囲は異なる。"},
+  "overview": {
+    "responsibilities": ["原料受入から加熱、冷却、充填、包装までの条件を定め、衛生管理計画と作業手順に沿って製造を安定させる。", "温度逸脱、異物、設備故障が起きた際に対象ロットを止め、影響範囲を品質部門と評価して再発防止へつなげる。"],
+    "typicalPeople": ["食べられる見た目でも記録に疑義があれば出荷を止められる人。", "微生物、設備、人の動線を同時に見て衛生リスクを考えられる人。"],
+    "dailySchedule": [
+      {"time": "07:30", "title": "始業前衛生確認", "description": "洗浄記録、室温、アレルゲン切替、原料ロットを確認して稼働を許可する。"},
+      {"time": "09:00", "title": "製造条件監視", "description": "加熱温度、時間、充填量、金属検出器など重要な管理値を巡回確認する。"},
+      {"time": "13:00", "title": "切替・洗浄判定", "description": "次製品との原料差を確認し、交差接触を防ぐ分解洗浄と始業点検を行う。"},
+      {"time": "16:00", "title": "逸脱レビュー", "description": "当日の停止と再処理を記録し、品質担当と保留品の扱いを協議する。"}
+    ],
+    "qualifications": ["就業に一律の必須資格は通常ない。施設や製品によって食品衛生管理者・責任者等の選任要件が関係するが、担当者全員に同じ資格が必要とは限らない。"],
+    "education": ["食品、農芸化学、微生物、機械等を学ぶ例がある一方、製造現場で工程と衛生管理を習得して技術担当へ進む人もいる。"],
+    "workStyle": ["衛生服で工場内を巡回し、製品によって早朝・夜間の交替勤務がある。原料季節性や繁忙期、設備洗浄で時間が変動する。"],
+    "annualIncome": {"summary": "製品分野、工場規模、技術責任、交替勤務の有無で差があり、食品メーカーの製造技術職として定まる。", "note": "地域、役職、衛生関連の選任、深夜手当、雇用形態などにより異なるため、広い職業統計は目安に留まる。"},
+    "suitableFor": ["衛生手順を理由まで理解して毎回守れる人", "味覚だけでなく温度と記録から安全を判断できる人"]
+  },
+  "creative": {
+    "investigatorFeatures": ["原料、製造時刻、設備、配送先をロット記録で結び、異常食品の広がりを追跡できる。", "匂い、色、粘度、温度の変化から、腐敗・反応・意図的混入の候補を切り分けられる。"],
+    "likelyKnowledge": ["食品衛生、微生物、加熱殺菌、冷却、包装、アレルゲン。", "HACCP、洗浄、異物対策、ロット追跡、製造設備、官能評価。"],
+    "roleplayTips": ["怪しい食品を味見せず、まず隔離して原料と温度履歴を確認する。", "いつ作ったかだけでなく、直前に同じ設備で何を作ったか尋ねる。"],
+    "personalityExamples": ["記録の一度の空欄を見逃さない衛生番", "原料の個性を工程条件へ落とす現場調整者"],
+    "everydayEvents": ["廃棄したはずのロット番号が翌日の完成品へ印字される。", "冷蔵庫内の一箱だけ、内部温度が人肌を保ち続ける。"],
+    "scenarioHooks": ["特定の製造日だけ、食べた人が同じ夢と地名を口にする。", "無人時間帯の洗浄記録に、存在しない作業者の署名が残る。"],
+    "commonCharacterSettings": ["回収判断を巡って会社と対立した元工場技術主任。", "地方の発酵食品と古い蔵の菌叢を研究する製造担当。"]
+  },
+  "creativeIdeas": [
+    {"title": "存在しない作業者の洗浄印", "summary": "現代日本の食品工場で、無人時間の洗浄記録に毎晩同じ署名が増える。製造技術者は入退室と配管履歴を照合し、洗われている未知の設備を探す。", "era": "現代", "region": "日本"},
+    {"title": "極夜基地の発酵槽", "summary": "極地基地で非常食の発酵槽だけが電力なしに温度を保つ。技術者は食料不足の中、未知の菌を利用する危険を評価する。", "era": "近未来", "region": "架空の極地基地"}
+  ],
+  "scenarioSituations": [
+    {"title": "食品工場の封鎖", "reason": "対象ロットを隔離し、原料受入から出荷までを遡って汚染が通過した工程と配送先を絞れる。"},
+    {"title": "山村の発酵蔵", "reason": "温度、塩分、微生物の一般的な変化を知り、伝統製法では説明できない発酵現象を慎重に調べられる。"},
+    {"title": "豪華客船の厨房区画", "reason": "限られた食材と冷蔵設備の中で集団異常の原因を追い、乗客へ広がる前に食事系統を止められる。"}
+  ],
+  "aptitude": {"investigation":3,"negotiation":3,"combat":2,"infiltration":3,"support":4,"knowledge":3,"beginnerFriendly":2},
+  "aptitudeReasons": {
+    "support": "サポート4/5：食品製造技術者の「原料受入から加熱、冷却、充填、包装までの条件を定め、衛生管理計画と作業手順に沿って製造を安定させる」という職業像が、仲間の判断と行動を支える役づくりにつながります。",
+    "investigation": "調査3/5：食品製造技術者の「原料、製造時刻、設備、配送先をロット記録で結び、異常食品の広がりを追跡できる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ2/5：食品製造技術者の「怪しい食品を味見せず、まず隔離して原料と温度履歴を確認する」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": ["食品衛生", "微生物", "工程管理", "ロット追跡", "設備知識", "記録管理", "官能評価"],
+  "relatedOccupationSlugs": ["quality-control-specialist", "production-engineer", "pastry-chef", "wagashi-artisan", "baker"],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省：職業情報提供サイト job tag「食品技術者」",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail?occupationId=288",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "厚生労働省：HACCPに基づく衛生管理",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/haccp/01_00020.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-17", "updatedAt": "2026-07-26", "lastReviewedAt": "2026-07-26"
+}

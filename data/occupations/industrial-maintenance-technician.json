@@ -1,0 +1,73 @@
+{
+  "id": "occ-159", "slug": "industrial-maintenance-technician", "name": "設備保全技術者", "aliases": ["工場保全員", "メンテナンス技術者"], "categoryId": "manufacturing",
+  "searchFacets": {"eras":["taisho-1920s"],"regions":["island","fictional"],"situations":["closed","disaster","factory"]},
+  "catchphrase": "止まる前の兆候を拾い、工場の時間を守る。",
+  "shortDescription": "工場設備を点検・診断し、故障修理、予防保全、部品交換、復旧確認を行う。工程を新しく構築する生産技術者に対し、設備保全は稼働中の機械を安全な状態へ戻し維持する責任を持つ。",
+  "keywords": ["予防保全", "故障診断", "潤滑", "振動", "ロックアウト", "復旧"],
+  "setting": {"eras": ["現代"], "regions": ["日本"], "note": "現代日本の工場・プラントで機械系または電気系設備の保全を担う技術者像。設備種別、法定点検、外注範囲によって権限は異なる。"},
+  "overview": {
+    "responsibilities": ["振動、温度、電流、油、異音と点検履歴から劣化を診断し、停止前に整備時期を計画する。", "故障時はエネルギー源を遮断して原因を切り分け、交換・調整後に安全装置を含む復旧確認を行う。"],
+    "typicalPeople": ["機械の普段の癖を覚え、小さな変化を放置せず記録できる人。", "早期復旧を求められても、隔離と試運転の手順を省略しない人。"],
+    "dailySchedule": [
+      {"time": "08:00", "title": "交替情報の確認", "description": "警報履歴、応急処置、未完了作業を受け取り、優先する設備を決める。"},
+      {"time": "09:30", "title": "巡回診断", "description": "回転機や配電盤を巡り、振動計と熱画像で平常値との差を確かめる。"},
+      {"time": "13:00", "title": "計画整備", "description": "停止許可と遮断点を確認し、摩耗部品の交換や給脂、芯出しを行う。"},
+      {"time": "16:00", "title": "試運転・履歴更新", "description": "ガードと安全装置を戻して負荷試験を行い、交換部品と測定値を台帳へ残す。"}
+    ],
+    "qualifications": ["担当設備により電気工事士、機械保全技能士、ボイラー技士などが必要・有用になる。資格があっても事業所の作業許可手順を省略できない。"],
+    "education": ["工業高校、高専、専門学校、大学で機械・電気を学ぶほか、製造運転から保全担当へ移る例がある。"],
+    "workStyle": ["巡回と整備を組み合わせ、交替勤務や呼出待機がある。大型整備は設備停止日に集中し、協力会社と夜間作業を行う場合もある。"],
+    "annualIncome": {"summary": "技能領域、交替勤務、呼出責任、設備規模によって差があり、製造業の技術・技能職として幅広い。", "note": "地域、企業、資格手当、深夜勤務、危険物・高圧設備の担当有無により異なるため定額では示せない。"},
+    "suitableFor": ["触る前にエネルギー源と危険範囲を確認できる人", "過去の記録から故障の前兆を探すのが好きな人"]
+  },
+  "creative": {
+    "investigatorFeatures": ["焼け跡、摩耗粉、油漏れ、振動の方向から、故障が始まった部位と順序を推定できる。", "配管・配線・点検通路を知り、通常は施錠された機械裏や地下ピットへ正当な理由で入れる。"],
+    "likelyKnowledge": ["軸受、潤滑、油圧、空圧、電動機、センサー。", "ロックアウト、予防保全、振動診断、部品管理、作業許可。"],
+    "roleplayTips": ["まず停止、遮断、残留エネルギー確認の順で声に出す。", "異音を擬音だけで済ませず、回転数や負荷との関係を尋ねる。"],
+    "personalityExamples": ["機械の癖を人名のように覚える巡回員", "復旧を急かされるほど慎重になる安全番"],
+    "everydayEvents": ["廃止したポンプの軸受温度が、毎朝点検表へ自動記録される。", "交換した新品ベルトだけが、一晩で数年分の摩耗を示す。"],
+    "scenarioHooks": ["停止設備の内部から規則正しい打音がし、開放許可の期限が迫る。", "工場全体の故障が、見つからない一台の回転数へ同期している。"],
+    "commonCharacterSettings": ["過去の爆発事故以来、独自の二重点検を続ける保全員。", "メーカー廃業後も旧式設備を直せる最後の熟練者。"]
+  },
+  "creativeIdeas": [
+    {"title": "廃止ポンプの体温", "summary": "現代日本の化学工場で、撤去予定ポンプの温度だけが上昇する。保全技術者は遮断図と熱画像を照合し、地下から供給される未知の動力を探る。", "era": "現代", "region": "日本"},
+    {"title": "灯台機関の十三回転", "summary": "孤島の旧式灯台で、保守工は停止した蒸気機関が夜ごと十三回だけ回ると知る。歯車の摩耗方向から、海底へ力を送る仕組みを解く。", "era": "1920年代風", "region": "架空の孤島"}
+  ],
+  "scenarioSituations": [
+    {"title": "停電したプラント", "reason": "残留圧力と予備電源を確認して危険区画を切り分け、安全な復旧順序を組み立てられる。"},
+    {"title": "地下機械室", "reason": "配管と点検口の用途を把握しているため、図面にない弁や奥へ続く保守通路の異常を説明できる。"},
+    {"title": "無人の発電施設", "reason": "警報履歴と機器の摩耗状態を比較し、人がいない期間にも続いていた運転の証拠を見つけられる。"}
+  ],
+  "aptitude": {"investigation": 5, "negotiation": 2, "combat": 3, "infiltration": 4, "support": 5, "knowledge": 4, "beginnerFriendly": 1},
+  "aptitudeReasons": {
+    "investigation": "調査5/5：設備保全技術者の「焼け跡、摩耗粉、油漏れ、振動の方向から、故障が始まった部位と順序を推定できる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "support": "サポート5/5：設備保全技術者の「振動、温度、電流、油、異音と点検履歴から劣化を診断し、停止前に整備時期を計画する」という職業像が、仲間の判断と行動を支える役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ1/5：設備保全技術者の「まず停止、遮断、残留エネルギー確認の順で声に出す」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": ["機械修理", "故障診断", "電気知識", "計測", "安全管理", "工具", "配管読解"],
+  "relatedOccupationSlugs": ["production-engineer", "mechanical-engineer", "electrical-equipment-engineer", "agricultural-machinery-mechanic"],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省：職業情報提供サイト job tag「物流設備管理・保全」",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/269",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "厚生労働省：機械の包括的な安全基準に関する指針",
+      "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tb3487&dataType=1&pageNo=1",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-17", "updatedAt": "2026-07-26", "lastReviewedAt": "2026-07-26"
+}

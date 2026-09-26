@@ -1,0 +1,52 @@
+{
+  "name": "tansakusha-occupation-encyclopedia",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "data:build": "node scripts/generate-data.mjs",
+    "predev": "node scripts/generate-data.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/generate-data.mjs",
+    "build": "node scripts/build-github-pages.mjs",
+    "build:pages": "node scripts/build-github-pages.mjs",
+    "test:pages": "node scripts/check-github-pages.mjs",
+    "start": "node scripts/serve-pages.mjs",
+    "pretest": "node scripts/generate-data.mjs",
+    "pretest:unit": "node scripts/generate-data.mjs",
+    "test": "node --test --test-isolation=none",
+    "test:unit": "node --test --test-isolation=none tests/data-validation.test.mjs tests/search.test.mjs tests/search-index-client.test.mjs tests/dialog-contract.test.mjs tests/occupation-comparison.test.mjs tests/beginner-diagnosis.test.mjs tests/search-facets.test.mjs tests/source-link-checker.test.mjs tests/global-comparison-tray.test.mjs",
+    "test:rendered": "node --test --test-isolation=none tests/rendered-html.test.mjs",
+    "perf:search": "node scripts/measure-search-payload.mjs",
+    "perf:search:build": "node scripts/measure-search-build.mjs --assert",
+    "sources:check": "node scripts/check-source-links.mjs",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .vinext --ignore-pattern .wrangler",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module"
+}

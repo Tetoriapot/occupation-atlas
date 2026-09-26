@@ -1,0 +1,69 @@
+{
+  "id": "occ-168", "slug": "beekeeper", "name": "養蜂家", "aliases": ["蜜蜂飼育者", "ビーキーパー"], "categoryId": "agriculture",
+  "searchFacets": {"eras":["premodern"],"regions":["overseas","urban","fictional"],"situations":["outdoors","criminal-case","maritime","research-facility"]},
+  "catchphrase": "花と群れの季節を読み、小さな社会を守る。",
+  "shortDescription": "ミツバチの群れを飼育し、採蜜、女王・巣箱管理、疾病対策、花粉交配を行う農業者。一般の畜産より小さな群れ単位で、周辺の蜜源と広域移動まで管理する。",
+  "keywords": ["養蜂","ミツバチ","採蜜","蜜源","蜂群","花粉交配","農林水産"],
+  "setting": {"eras": ["現代"], "regions": ["日本"], "note": "現代日本で固定養蜂または転飼養蜂を営む養蜂家像。蜂群数、採蜜・交配の比重、地域条例や許可で作業は異なる。"},
+  "overview": {
+    "responsibilities": ["巣枠を観察して女王、産卵、幼虫、貯蜜、群勢を把握し、給餌、分蜂防止、採蜜の時期を判断する。", "蜂病と農薬被害を警戒し、飼育届や転飼許可など地域の手続きを確認して蜂群と蜜源を配置する。"],
+    "typicalPeople": ["刺される恐怖を制御し、巣箱を急がず静かに扱える人。", "自分の土地だけでなく周辺農家と蜜源環境を調整できる人。"],
+    "dailySchedule": [
+      {"time": "06:00", "title": "外勤観察", "description": "気温、風、出入りする蜂、巣門前の死蜂から巡回順を決める。"},
+      {"time": "08:00", "title": "内検", "description": "防護具と燻煙器を使い、女王、育児圏、貯蜜、病害の兆候を確認する。"},
+      {"time": "12:00", "title": "採蜜・巣箱作業", "description": "熟した蜜枠を選び、衛生的に遠心分離して巣箱資材を補修する。"},
+      {"time": "16:00", "title": "記録・配置調整", "description": "群勢と処置を記録し、開花情報や農薬散布予定を周辺と確認する。"}
+    ],
+    "qualifications": ["養蜂の職業自体に一律の個人資格は通常ないが、飼育届や県を越える転飼の許可など養蜂振興法と地域運用の確認が必要。"],
+    "education": ["農業教育、養蜂団体や熟練者の研修で学ぶほか、小規模飼育から蜂群を増やして経営化する例がある。"],
+    "workStyle": ["開花と天候に左右され、早朝の巣箱移動や季節的な繁忙がある。刺傷、暑熱、重量物に備え単独作業の限界を判断する。"],
+    "annualIncome": {"summary": "蜂蜜、蜜ろう、交配サービス、蜂群販売の構成と天候・越冬成績で変動が大きい。", "note": "規模、蜜源、移動費、疾病、販路、兼業の有無で異なり、小規模副業と専業を同じ基準で比べられない。"},
+    "suitableFor": ["昆虫の集団行動を静かに長時間観察できる人", "開花・農薬・近隣関係を広い範囲で調整できる人"]
+  },
+  "creative": {
+    "investigatorFeatures": ["蜂の飛行方向と花粉の色から、周辺のどこに未知の蜜源や異変があるか推測できる。", "巣房、女王、幼虫の状態を見て、群れがいつ外乱を受けたか時間を遡れる。"],
+    "likelyKnowledge": ["ミツバチ行動、花、季節、採蜜、女王管理、分蜂。", "蜂病、農薬影響、飼育届、蜜源地図、蜜ろう、食品衛生。"],
+    "roleplayTips": ["蜂を怒らせる大声や急な動きを避け、まず巣門の流れを見る。", "蜂蜜の味より、花粉の色と飛来方角を手がかりにする。"],
+    "personalityExamples": ["数万匹のざわめきから異常を聞き分ける内検家", "花の暦を地図へ書き込む移動養蜂家"],
+    "everydayEvents": ["すべての蜂が蜜を運ばず、黒い石片だけを巣へ積み始める。", "女王を失った群れが、人間の名を振動で伝えるようになる。"],
+    "scenarioHooks": ["採蜜した蜜に、地図上にない花の花粉が大量に含まれる。", "失踪者の衣服から、季節外れの同じ蜂群の印が見つかる。"],
+    "commonCharacterSettings": ["農薬被害の原因を独自に追う移動養蜂家。", "祖父の巣箱から百年前の封印蜂群を継いだ後継者。"]
+  },
+  "creativeIdeas": [
+    {"title": "黒石を集める蜂群", "summary": "現代日本の里山で、蜂が花粉の代わりに黒い石を巣へ運ぶ。養蜂家は飛行方向を追い、地図にない採掘跡と奇妙な蜜源へ至る。", "era": "現代", "region": "日本"},
+    {"title": "砂漠都市の月光蜜", "summary": "花のない砂漠都市で、巣箱が月夜だけ透明な蜜を満たす。養蜂家は夜間の飛行経路を追い、地下庭園の存在を知る。", "era": "古代風", "region": "架空の砂漠都市"}
+  ],
+  "scenarioSituations": [
+    {"title": "里山の失踪事件", "reason": "蜂の帰巣方向と採取した花粉を手がかりに、通常の人間の捜索路から外れた場所を絞り込める。"},
+    {"title": "孤島の研究農園", "reason": "限られた植物相と受粉関係を知り、島に存在しない花粉が混じった理由を生態系から追える。"},
+    {"title": "古い養蜂場", "reason": "巣箱配置と群れの系譜を読み、長年封じられた箱を開ける順序と危険を判断する役割が生まれる。"}
+  ],
+  "aptitude": {"investigation":3,"negotiation":2,"combat":2,"infiltration":2,"support":2,"knowledge":4,"beginnerFriendly":2},
+  "aptitudeReasons": {
+    "knowledge": "知識4/5：養蜂家の「ミツバチ行動、花、季節、採蜜、女王管理、分蜂」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。",
+    "investigation": "調査3/5：養蜂家の「蜂の飛行方向と花粉の色から、周辺のどこに未知の蜜源や異変があるか推測できる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ2/5：養蜂家の「蜂を怒らせる大声や急な動きを避け、まず巣門の流れを見る」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": ["昆虫知識", "自然観察", "採蜜", "植物知識", "地図", "応急対応", "地域調整"],
+  "relatedOccupationSlugs": ["farmer", "livestock-farmer", "life-science-researcher", "folklorist"],
+  "featured": {},
+  "sources":[
+    {
+      "title": "農林水産省：養蜂について",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/lin/sonota/bee.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    },
+    {
+      "title": "農林水産省：養蜂振興法（改正後）",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/lin/sonota/pdf/kaisei.pdf",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-17", "updatedAt": "2026-07-26", "lastReviewedAt": "2026-07-26"
+}

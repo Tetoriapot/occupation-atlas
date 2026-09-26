@@ -1,0 +1,74 @@
+{
+  "id": "occ-173", "slug": "agricultural-extension-advisor", "name": "農業普及指導員", "aliases": ["普及指導員", "農業改良普及員"], "categoryId": "agriculture",
+  "searchFacets": {"eras":["near-future"],"regions":["space","fictional"],"situations":["disaster","courtroom","research-facility"]},
+  "catchphrase": "研究成果と農家の現場を往復し、地域に合う改善を支える。",
+  "shortDescription": "都道府県の専門職員として農業者へ技術・経営支援を行い、実証、研修、地域課題の調整を担う。農作物を自ら経営生産する農家ではなく、公的な立場で複数経営体を支援する。",
+  "keywords": ["普及指導","農業技術","営農相談","実証圃","地域支援","公務員","地方公務員","農林水産"],
+  "setting": {"eras": ["現代"], "regions": ["日本"], "note": "現代日本の都道府県で協同農業普及事業に従事する普及指導員像。作物、畜産、経営など専門と地域配置で担当は異なる。"},
+  "overview": {
+    "responsibilities": ["農家を訪問して生育、病害、作業、経営の課題を把握し、研究成果と地域条件を踏まえた改善策を一緒に検討する。", "実証圃、講習会、記録分析を通して技術を普及し、災害・病害発生時は関係機関へ現場情報をつなぐ。"],
+    "typicalPeople": ["正解を押し付けず、農家の経験と研究データを同じテーブルで扱える人。", "公的助言の影響を理解し、専門外は研究機関や獣医師等へつなげられる人。"],
+    "dailySchedule": [
+      {"time": "08:30", "title": "相談・気象確認", "description": "農家からの連絡、病害予察、気象、前日の現地記録を整理して訪問順を決める。"},
+      {"time": "10:00", "title": "現地巡回", "description": "圃場や畜舎で症状と管理履歴を聞き、写真・測定値・試料を記録する。"},
+      {"time": "13:30", "title": "実証・助言", "description": "導入技術の比較結果を農家と確認し、費用と作業性を含む次の試行を決める。"},
+      {"time": "16:30", "title": "共有・資料作成", "description": "研究機関や行政へ現場情報を伝え、講習資料と相談記録を更新する。"}
+    ],
+    "qualifications": ["都道府県職員としての採用に加え、普及指導員資格試験には学歴等に応じた実務経験要件が定められている。最新の受験案内確認が必要。"],
+    "education": ["農学系の大学・大学院等から公務員採用へ進む例が多いが、受験資格は学歴と実務経験の組合せがある。"],
+    "workStyle": ["庁舎での資料作成と農村への訪問を組み合わせる。生育期、災害、病害発生時は巡回や休日対応が増える場合がある。"],
+    "annualIncome": {"summary": "地方公務員の給与制度を基本とし、自治体、職位、勤続、手当によって異なる。", "note": "採用区分、地域、時間外・出張、役職等で変わり、職名だけで個人の待遇は決まらない。"},
+    "suitableFor": ["専門知識を現場の言葉へ置き換えられる人", "地域全体の利益と個々の経営事情を調整できる人"]
+  },
+  "creative": {
+    "investigatorFeatures": ["複数農家の生育・病害・資材記録を横断し、一軒だけでは見えない地域共通の異常を発見できる。", "農村の公的相談役として、集落、研究機関、行政、流通を自然に行き来できる。"],
+    "likelyKnowledge": ["作物栽培、土壌、病害虫、気象、農業経営、普及方法。", "実証試験、統計、補助制度、地域組織、災害対応、記録作成。"],
+    "roleplayTips": ["助言する前に、農家がすでに試したことと経営上できないことを聞く。", "異常が広域か一圃場だけかを確かめ、情報源と確度を分けて共有する。"],
+    "personalityExamples": ["長靴とタブレットを持って集落を回る技術通訳", "古老の経験則を実証試験へ変える調整役"],
+    "everydayEvents": ["離れた三つの圃場で、同じ形の空白だけ作物が育たない。", "相談記録に、まだ訪問していない農家から翌日の報告が追加される。"],
+    "scenarioHooks": ["地域全体の病害発生図が、古い祭礼の巡行路と一致する。", "実証圃だけ季節が一週間先へ進み、周囲へ境界が広がり始める。"],
+    "commonCharacterSettings": ["研究成果より農家の安全を優先して上司と対立した指導員。", "異動先の全相談記録に同じ匿名農家を見つけた公務員。"]
+  },
+  "creativeIdeas": [
+    {"title": "病害地図の祭礼路", "summary": "現代日本の農村で、普及指導員が病害発生地点を重ねると廃れた祭礼路になる。農家の記録を集め、巡行が再開した理由を追う。", "era": "現代", "region": "日本"},
+    {"title": "植民惑星の先行季節区", "summary": "開拓惑星の実証圃だけ季節が先行する。農業指導官は気象と土壌を比較し、時間差が集落へ広がる前に境界を測る。", "era": "近未来", "region": "架空の植民惑星"}
+  ],
+  "scenarioSituations": [
+    {"title": "広域農作物異常", "reason": "複数経営体の記録と地図を比較でき、種苗、資材、水系、気象のどの共通要因が関係するか整理できる。"},
+    {"title": "災害後の農村", "reason": "行政と農家を結ぶ役割から被害圃場へ入り、生活再建を妨げる不可解な土壌変化を公的に記録できる。"},
+    {"title": "研究機関の実証圃", "reason": "研究者と農家双方の説明を理解し、試験計画にない生育差が隠された操作か未知現象かを検討できる。"}
+  ],
+  "aptitude": {"investigation":4,"negotiation":5,"combat":2,"infiltration":3,"support":5,"knowledge":5,"beginnerFriendly":1},
+  "aptitudeReasons":{
+    "negotiation": "交渉5/5：農業普及指導員の「助言する前に、農家がすでに試したことと経営上できないことを聞く」という職業像が、会話から情報や協力を引き出す役づくりにつながります。",
+    "support": "サポート5/5：農業普及指導員の「農家を訪問して生育、病害、作業、経営の課題を把握し、研究成果と地域条件を踏まえた改善策を一緒に検討する」という職業像が、仲間の判断と行動を支える役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ1/5：農業普及指導員の「助言する前に、農家がすでに試したことと経営上できないことを聞く」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": ["農業知識", "病害観察", "交渉", "データ分析", "制度知識", "地域調整", "文書作成"],
+  "relatedOccupationSlugs": ["farmer","life-science-researcher","prefectural-government-official","livestock-farmer"],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省：職業情報提供サイト job tag「農業技術者」",
+      "url": "https://shigoto.mhlw.go.jp/Occupation/Detail?occupationId=221",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "農林水産省：普及指導員資格試験とは",
+      "url": "https://www.maff.go.jp/j/seisan/gizyutu/hukyu/h_siken/01_siken.html",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-17", "updatedAt": "2026-07-26", "lastReviewedAt": "2026-07-26"
+}

@@ -1,0 +1,191 @@
+{
+  "id": "occ-014",
+  "slug": "firefighter",
+  "name": "消防士",
+  "aliases": [
+    "消防吏員",
+    "消防隊員"
+  ],
+  "categoryId": "government",
+  "searchFacets": {"eras":["near-future"],"regions":["space"],"situations":["closed","hotel","urban","disaster","transport"]},
+  "catchphrase": "熱・煙・崩壊の危険を読み、救助と消火に踏み込む。",
+  "shortDescription": "火災、救助、災害などへ出動し、人命救助・消火・危険排除を行う消防職員。平時は訓練や予防業務にも携わる。",
+  "keywords": [
+    "消火",
+    "救助",
+    "災害",
+    "消防署",
+    "訓練"
+  ],
+  "setting": {
+    "eras": [
+      "現代"
+    ],
+    "regions": [
+      "日本"
+    ],
+    "note": "現代日本の消防機関で消火、救助、警戒に携わる消防士像が基準。所属隊と自治体の体制で担当は変わる。"
+  },
+  "overview": {
+    "responsibilities": [
+      "災害現場で安全を確保し、消火・救助・警戒活動を行う。",
+      "車両・資器材を維持し、訓練や防火指導で出動へ備える。"
+    ],
+    "typicalPeople": [
+      "体力を鍛え、厳しい状況で仲間と役割を果たして人を助けたい人が目指す。"
+    ],
+    "dailySchedule": [
+      {
+        "time": "08:30",
+        "title": "交替・点検",
+        "description": "前勤務から引き継ぎ、車両、空気呼吸器、救助資器材を点検する。"
+      },
+      {
+        "time": "10:00",
+        "title": "訓練・予防活動",
+        "description": "放水や救助の訓練、対象物の調査、防火指導を行う。"
+      },
+      {
+        "time": "14:00",
+        "title": "警防調査・資器材整備",
+        "description": "担当区域の消防水利や進入経路を確認し、ホース、呼吸器、破壊器具を次の出動に使える状態へ戻す。"
+      },
+      {
+        "time": "22:00",
+        "title": "待機・出動",
+        "description": "仮眠を取りつつ指令に備え、出動時は即座に装備する。"
+      }
+    ],
+    "qualifications": [
+      "自治体等の消防職採用試験を経て採用され、消防学校で教育を受ける。担当により追加の講習・資格がある。"
+    ],
+    "education": [
+      "高校・大学等から複数の採用区分があり、身体条件を含む要件は募集ごとに異なる。"
+    ],
+    "workStyle": [
+      "消防署では当直を含む交替制が多い。高温・高所・重量物など身体的負担と危険が伴う。"
+    ],
+    "annualIncome": {
+      "summary": "地方公務員として、採用自治体の給与条例を基礎に、職務の級や勤続、交替勤務などに応じた給料と手当で構成される。",
+      "note": "消防士だけを全国一律に表す年収統計は示しにくい。採用自治体、階級、勤続、時間外勤務、特殊勤務手当等で異なるため、各消防本部の最新募集案内と給与条例を確認する。"
+    },
+    "suitableFor": [
+      "恐怖下でも手順を守って動ける人",
+      "体力とチームへの信頼を築ける人"
+    ]
+  },
+  "creative": {
+    "investigatorFeatures": [
+      "立入困難な災害現場への経験があり、建物の危険や火の回り方を判断できる。",
+      "隊員同士の短い合図と区域管理に慣れ、混乱した現場でも誰がどこを検索したかを整理できる。"
+    ],
+    "likelyKnowledge": [
+      "消火、救助、建物構造、危険物、災害時の指揮系統。",
+      "消防水利、空気呼吸器、ロープ・破壊器具、避難誘導、現場の安全管理。"
+    ],
+    "roleplayTips": [
+      "室内へ入る前に退路、崩落、煙の向きを確認する。",
+      "単独行動を避け、残圧や活動時間を声に出して共有し、救助対象より先に二次災害を警戒する。"
+    ],
+    "personalityExamples": [
+      "大胆に見えて安全確認が細かい人",
+      "仲間思いの寡黙な隊員"
+    ],
+    "everydayEvents": [
+      "訓練用の無人建物で、人が歩くような熱源を測定する。",
+      "消防水利の定期確認中、図面にない消火栓から海水の匂いがする黒い水が流れ出す。"
+    ],
+    "scenarioHooks": [
+      "鎮火したはずの廃屋が、雨の夜だけ内部から再び熱を持つ。",
+      "救助訓練の要救助者役を全員回収した後、無線に地下階からもう一人の救難信号が入る。"
+    ],
+    "commonCharacterSettings": [
+      "過去の現場で聞いた声を忘れられない救助隊員。",
+      "地域の古い木造密集地を誰より把握し、再開発で消えた路地の記憶を持つ消防隊員。"
+    ]
+  },
+  "creativeIdeas": [
+    {
+      "title": "雨夜に再燃する廃屋",
+      "summary": "訓練用の無人建物で、人が歩くような熱源を測定する。鎮火したはずの廃屋が、雨の夜だけ内部から再び熱を持つ。再燃の危険を周囲へ説明し、立ち入りの判断を迫られる。",
+      "era": "現代",
+      "region": "日本"
+    },
+    {
+      "title": "無重力区画の青い炎",
+      "summary": "消防隊員が無重力区画で通常と異なる広がり方をする炎に対処する。酸素残量と避難経路を管理しながら発火源へ迫る。",
+      "era": "近未来",
+      "region": "軌道上居住施設"
+    }
+  ],
+  "scenarioSituations": [
+    {
+      "title": "地震直後の市街地",
+      "reason": "救助、消火、危険排除を担う立場から、倒壊建物へ入り取り残された人々を探索する目的が明確になる。"
+    },
+    {
+      "title": "高層ホテル火災",
+      "reason": "煙と避難経路を読みながら上階へ進み、延焼方向に反する熱源や宿泊記録にない客室へ迫れる。"
+    },
+    {
+      "title": "地下トンネル事故",
+      "reason": "呼吸器や救助資機材を扱い、視界の悪い閉鎖空間で仲間を支えつつ異常な崩落箇所を突破できる。"
+    }
+  ],
+  "aptitude": {
+    "investigation": 3,
+    "negotiation": 3,
+    "combat": 3,
+    "infiltration": 4,
+    "support": 5,
+    "knowledge": 3,
+    "beginnerFriendly": 4
+  },
+  "aptitudeReasons": {
+    "support": "サポート5/5：消防士の「災害現場で安全を確保し、消火・救助・警戒活動を行う」という職業像が、仲間の判断と行動を支える役づくりにつながります。",
+    "infiltration": "潜入4/5：消防士の「鎮火したはずの廃屋が、雨の夜だけ内部から再び熱を持つ」という職業像が、人目を避けて現場へ近づく場面の説得力につながります。",
+    "knowledge": "知識3/5：消防士の「消火、救助、建物構造、危険物、災害時の指揮系統」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。"
+  },
+  "skillImages": [
+    "消火",
+    "救助",
+    "応急手当",
+    "機械操作",
+    "危険予測",
+    "現場指揮"
+  ],
+  "relatedOccupationSlugs": [
+    "emergency-medical-technician",
+    "fire-investigator",
+    "local-government-disaster-management-officer",
+    "ground-self-defense-force-member"
+  ],
+  "featured": {
+    "popularRank": 5
+  },
+  "sources":[
+    {
+      "title": "厚生労働省 職業情報提供サイト（job tag）：消防官",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail?occupationId=155",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "総務省消防庁：消防士とは",
+      "url": "https://www.fdma.go.jp/relocation/josei_shokuin/job/about.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],
+  "publishedAt": "2026-06-22",
+  "updatedAt": "2026-07-26",
+  "lastReviewedAt": "2026-07-26"
+}

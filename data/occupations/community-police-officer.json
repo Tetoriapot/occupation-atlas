@@ -1,0 +1,207 @@
+{
+  "id": "occ-011",
+  "slug": "community-police-officer",
+  "name": "地域警察官",
+  "aliases": [],
+  "categoryId": "police",
+  "searchFacets": {"eras":["taisho-1920s"],"regions":["maritime","fictional"],"situations":["school","urban","criminal-case","transport","event","residential","everyday"]},
+  "catchphrase": "街を巡り、事件になる前の異変にも目を配る。",
+  "shortDescription": "交番などを拠点にパトロール、遺失届、相談、初動対応を担う警察官。住民との日常的な接点が多い。",
+  "keywords": [
+    "交番",
+    "交番勤務",
+    "制服警察官",
+    "巡回",
+    "地域安全",
+    "初動捜査",
+    "警察"
+  ],
+  "setting": {
+    "eras": [
+      "現代"
+    ],
+    "regions": [
+      "日本"
+    ],
+    "note": "現代日本の交番や駐在所を拠点に地域の安全を支える警察官像が基準。配置と担当区域で業務は異なる。"
+  },
+  "overview": {
+    "responsibilities": [
+      "受け持ち地域を巡回し、通報・相談・事故へ初動対応する。",
+      "道案内、遺失物、住民訪問を通じて地域の状況を把握する。"
+    ],
+    "typicalPeople": [
+      "公共の安全に関わり、幅広い人と直接接する仕事を望む人が目指すことが多い。"
+    ],
+    "dailySchedule": [
+      {
+        "time": "08:30",
+        "title": "引き継ぎと装備確認",
+        "description": "前勤務の事案と警戒情報を確認し、装備を点検する。"
+      },
+      {
+        "time": "10:00",
+        "title": "巡回・相談対応",
+        "description": "徒歩や車両で地域を回り、交番で届出や相談を受ける。"
+      },
+      {
+        "time": "19:00",
+        "title": "警戒と記録",
+        "description": "夜間の繁華街などを警戒し、扱った事案を記録する。"
+      },
+      {
+        "time": "23:30",
+        "title": "通報への初動対応",
+        "description": "夜間通報へ臨場し、危険を抑えながら現場保存と関係者確認を行う。"
+      }
+    ],
+    "qualifications": [
+      "警察官採用試験等を経て採用され、警察学校で教育を受ける。区分や要件は都道府県警察等により異なる。"
+    ],
+    "education": [
+      "高校・大学等から複数の採用区分があり、必要な学歴や年齢条件は募集ごとに確認が必要。"
+    ],
+    "workStyle": [
+      "交番では当直を含む交替制が一般的。屋外活動、急な残業、配置転換がある。"
+    ],
+    "annualIncome": {
+      "summary": "警視庁の令和8年度採用案内では、巡査として採用される時点の初任給例がⅠ類321,900円、Ⅲ類279,400円（地域手当込み）と示されている。東京都における採用時の月額例であり、交番勤務者だけの年収を示すものではない。",
+      "note": "採用案内の金額は令和7年4月1日現在の給料月額を基礎とする東京都の参考例。全国の都道府県警察で条件が異なり、地域警察への配属固有の年収ではない。実際の給与は経験、階級、交替勤務、各種手当等で変わる。"
+    },
+    "suitableFor": [
+      "人の顔と地域の変化を覚えられる人",
+      "緊張時にも規則と安全確認を守れる人"
+    ]
+  },
+  "creative": {
+    "investigatorFeatures": [
+      "地域の地理、人の出入り、過去の小さなトラブルを把握し、現場へ入る公的理由を持つ。",
+      "事件になる前の相談や遺失物を横断して見られ、住民の日常から外れた小さな兆候を拾える。"
+    ],
+    "likelyKnowledge": [
+      "地域事情、交通・遺失物の手続、初動対応、無線連絡。",
+      "交番管内の道路、学校、商店、空き家、避難場所と時間帯ごとの人の流れ。"
+    ],
+    "roleplayTips": [
+      "まず危険を隔離し、氏名・時刻・場所を確認してメモする。",
+      "顔見知りにも決めつけず、普段との違いを尋ねながら通報内容と目の前の状況を分けて話す。"
+    ],
+    "personalityExamples": [
+      "親しみやすい聞き役",
+      "規律を重んじる慎重派"
+    ],
+    "everydayEvents": [
+      "常連の相談者が、今日は別人のように交番を避けて通る。",
+      "持ち主の現れない同じ鍵束が、離れた交番へ一週間おきに届けられる。"
+    ],
+    "scenarioHooks": [
+      "巡回連絡簿にだけ存在する家から、毎夜同じ時刻に通報が入る。",
+      "パトロール中の無線に、廃止された駐在所の識別番号から応援要請が入る。"
+    ],
+    "commonCharacterSettings": [
+      "住民の噂を記憶している山間部の駐在所員。",
+      "都市の繁華街へ配属され、同じ路地を歩くことで土地勘を身につけた若手警察官。"
+    ]
+  },
+  "creativeIdeas": [
+    {
+      "title": "連絡簿だけの通報者",
+      "summary": "常連の相談者が、今日は別人のように交番を避けて通る。巡回連絡簿にだけ存在する家から、毎夜同じ時刻に通報が入る。地域との信頼を崩さず、存在しない住所を巡回する。",
+      "era": "現代",
+      "region": "日本"
+    },
+    {
+      "title": "巡回簿にない一軒",
+      "summary": "徒歩巡回を続ける警察官が、古い巡回簿にだけ記された家から毎晩灯りが漏れるのを見る。無線のない町で聞き込みを重ねる。",
+      "era": "1920年代風",
+      "region": "架空の港町"
+    }
+  ],
+  "scenarioSituations": [
+    {
+      "title": "夜間の住宅街",
+      "reason": "巡回で普段の街並みと住民を知っているため、灯りの消えない空き家や見慣れない車両に気づきやすい。"
+    },
+    {
+      "title": "子どもの行方不明",
+      "reason": "保護者、学校、近隣から情報を集める公的な立場があり、地域の協力を得ながら捜索を組み立てられる。"
+    },
+    {
+      "title": "地域の夏祭り",
+      "reason": "雑踏警備と迷子対応を担う中で、群衆の流れに逆らう人物や毎年繰り返す小さな異常を追跡できる。"
+    }
+  ],
+  "aptitude": {
+    "investigation": 4,
+    "negotiation": 4,
+    "combat": 4,
+    "infiltration": 3,
+    "support": 4,
+    "knowledge": 3,
+    "beginnerFriendly": 3
+  },
+  "aptitudeReasons": {
+    "investigation": "調査4/5：地域警察官の「地域の地理、人の出入り、過去の小さなトラブルを把握し、現場へ入る公的理由を持つ」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "negotiation": "交渉4/5：地域警察官の「まず危険を隔離し、氏名・時刻・場所を確認してメモする」という職業像が、会話から情報や協力を引き出す役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ3/5：地域警察官の「まず危険を隔離し、氏名・時刻・場所を確認してメモする」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": [
+    "聞き込み",
+    "観察",
+    "運転",
+    "護身",
+    "地域知識",
+    "無線連絡"
+  ],
+  "relatedOccupationSlugs": [
+    "detective",
+    "forensic-scientist",
+    "municipal-official"
+  ],
+  "featured": {
+    "recommendedRank": 3
+  },
+  "sources":[
+    {
+      "title": "厚生労働省 職業情報提供サイト（job tag）：警察官（都道府県警察）",
+      "url": "https://shigoto.mhlw.go.jp/Occupation/Detail?occupationId=140",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "警察庁：地域警察の仕事",
+      "url": "https://www.npa.go.jp/about/recruitment/police/job/type1/index.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    },
+    {
+      "title": "警視庁：地域警察の職種紹介",
+      "url": "https://www.keishicho.metro.tokyo.lg.jp/saiyo/type/community.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    },
+    {
+      "title": "警視庁：令和8年度警察官（Ⅰ・Ⅲ類）採用情報",
+      "url": "https://www.keishicho.metro.tokyo.lg.jp/saiyo/recruit/info-police.html",
+      "type": "government",
+      "supports": [
+        "qualifications",
+        "workStyle",
+        "annualIncome"
+      ]
+    }
+  ],
+  "publishedAt": "2026-06-22",
+  "updatedAt": "2026-07-26",
+  "lastReviewedAt": "2026-07-26"
+}

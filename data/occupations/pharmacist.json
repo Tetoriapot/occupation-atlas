@@ -1,0 +1,180 @@
+{
+  "id": "occ-004",
+  "slug": "pharmacist",
+  "name": "薬剤師",
+  "aliases": [
+    "調剤薬剤師"
+  ],
+  "categoryId": "medical",
+  "searchFacets": {"eras":["taisho-1920s"],"regions":["maritime","fictional"],"situations":["closed","hospital","maritime","everyday"]},
+  "catchphrase": "薬の組み合わせと使い方を点検する、医薬品の専門家。",
+  "shortDescription": "処方内容を確認して調剤し、患者へ薬の使い方を説明する。病院、薬局、企業、行政など活躍する場は幅広い。",
+  "keywords": [
+    "薬局",
+    "調剤",
+    "医薬品",
+    "服薬指導",
+    "化学"
+  ],
+  "setting": {
+    "eras": [
+      "現代"
+    ],
+    "regions": [
+      "日本"
+    ],
+    "note": "現代日本で調剤、服薬支援、医薬品管理に携わる薬剤師像が基準。薬局、病院、企業など勤務先で役割は異なる。"
+  },
+  "overview": {
+    "responsibilities": [
+      "処方箋の用量・相互作用・重複を確認し、正確に調剤する。",
+      "服薬状況や生活背景を聞き取り、安全な使い方を伝える。"
+    ],
+    "typicalPeople": [
+      "化学や生命科学への関心があり、細部の照合を丁寧に続けられる人が多い。"
+    ],
+    "dailySchedule": [
+      {
+        "time": "09:00",
+        "title": "在庫と連絡事項の確認",
+        "description": "不足薬、回収情報、前日からの照会事項を確認する。"
+      },
+      {
+        "time": "10:00",
+        "title": "処方監査と調剤",
+        "description": "処方内容を点検し、疑問点があれば処方元へ問い合わせる。"
+      },
+      {
+        "time": "14:00",
+        "title": "服薬状況の確認",
+        "description": "患者の飲み忘れ、副作用、生活上の困りごとを聞き、必要に応じて処方元へ提案や照会を行う。"
+      },
+      {
+        "time": "17:30",
+        "title": "記録・在庫管理",
+        "description": "服薬情報を記録し、期限や保管条件を含め在庫を整える。"
+      }
+    ],
+    "qualifications": [
+      "日本で薬剤師業務を行うには原則として薬剤師免許が必要。"
+    ],
+    "education": [
+      "一般には6年制の薬学課程を修め、薬剤師国家試験を受ける。研究職などは異なる進路もある。"
+    ],
+    "workStyle": [
+      "調剤薬局や病院ではシフト勤務もある。製薬企業、卸、行政では職務内容と勤務時間が異なる。"
+    ],
+    "annualIncome": {
+      "summary": "常勤ではおおむね400万〜650万円程度が一つの目安として語られる。",
+      "note": "地域、勤務先、担当業務、経験、管理職かどうか、雇用形態で異なる概算。"
+    },
+    "suitableFor": [
+      "照合と記録を正確に行える人",
+      "専門情報をかみ砕いて説明できる人"
+    ]
+  },
+  "creative": {
+    "investigatorFeatures": [
+      "薬品名や症状の組み合わせから、誤用・毒物・偽装の可能性を考えられる。",
+      "処方履歴、ロット、保管記録を照合し、同じ薬に見せかけた異物や通常と異なる流通経路を追える。"
+    ],
+    "likelyKnowledge": [
+      "医薬品、毒性、化学、薬局や病院の供給経路。",
+      "相互作用、副作用、剤形、医薬品の保管条件、疑義照会と服薬情報の記録。"
+    ],
+    "roleplayTips": [
+      "他人の持ち物にある薬袋の日付や併用薬へつい目が向く。",
+      "薬を勧める前に、症状、アレルギー、既往歴、現在使っている薬を確認する会話を挟む。"
+    ],
+    "personalityExamples": [
+      "几帳面な確認役",
+      "穏やかだが危険な併用には厳しい人"
+    ],
+    "everydayEvents": [
+      "患者の何気ない一言から、別の薬との飲み合わせに気づく。",
+      "未開封のはずの納品箱から、在庫システムに存在しない製造番号の錠剤が見つかる。"
+    ],
+    "scenarioHooks": [
+      "流通記録にない古い薬瓶が、複数の事件現場から見つかる。",
+      "夜間相談へ電話した人々が、異なる商品名の薬を飲んだ後に同じ幻覚を見ていると判明する。"
+    ],
+    "commonCharacterSettings": [
+      "民間伝承の薬草も研究する地域薬局の薬剤師。",
+      "病棟で処方提案を重ね、医師にも曖昧な用量をそのまま通さない臨床志向の薬剤師。"
+    ]
+  },
+  "creativeIdeas": [
+    {
+      "title": "事件現場の古い薬瓶",
+      "summary": "患者の何気ない一言から、別の薬との飲み合わせに気づく。流通記録にない古い薬瓶が、複数の事件現場から見つかる。薬の成分と流通の両面から、複数の現場を結びつける。",
+      "era": "現代",
+      "region": "日本"
+    },
+    {
+      "title": "青い瓶の処方箋",
+      "summary": "薬剤師が処方台帳にない青い瓶を受け取り、町の複数人が同じ夢を語ると知る。成分と流通経路を慎重に調べる。",
+      "era": "1920年代風",
+      "region": "架空の港町"
+    }
+  ],
+  "scenarioSituations": [
+    {
+      "title": "町の調剤薬局",
+      "reason": "処方内容と服薬状況を横断して見られるため、別の医療機関から同じ未知の薬を受け取る患者に気づける。"
+    },
+    {
+      "title": "閉鎖病院の薬品庫",
+      "reason": "薬品名、保管条件、使用記録を照合し、廃棄済みのはずの製剤と持ち出した人物を特定しやすい。"
+    },
+    {
+      "title": "孤島の医薬品不足",
+      "reason": "限られた在庫で代替手段を考えながら、島民が密かに用いる民間薬の成分と異常反応を分析できる。"
+    }
+  ],
+  "aptitude": {"investigation":3,"negotiation":3,"combat":1,"infiltration":2,"support":4,"knowledge":5,"beginnerFriendly":3},
+  "aptitudeReasons": {
+    "knowledge": "知識5/5：薬剤師の「医薬品、毒性、化学、薬局や病院の供給経路」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。",
+    "support": "サポート4/5：薬剤師の「処方箋の用量・相互作用・重複を確認し、正確に調剤する」という職業像が、仲間の判断と行動を支える役づくりにつながります。",
+    "combat": "戦闘1/5：薬剤師の「処方内容と服薬状況を横断して見られるため、別の医療機関から同じ未知の薬を受け取る患者に気づける」という職業像が、危険な現場で行動する理由や、戦闘を避ける判断の描写につながります。"
+  },
+  "skillImages": [
+    "薬学知識",
+    "化学",
+    "照合",
+    "説明",
+    "在庫管理",
+    "処方監査"
+  ],
+  "relatedOccupationSlugs": [
+    "doctor",
+    "nurse",
+    "life-science-researcher",
+    "public-health-nurse"
+  ],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省 職業情報提供サイト（job tag）：薬剤師",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail?occupationId=158",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "厚生労働省：薬剤師国家試験",
+      "url": "https://www.mhlw.go.jp/kouseiroudoushou/shikaku_shiken/yakuzaishi/index.html",
+      "type": "government",
+      "supports": [
+        "qualifications"
+      ]
+    }
+  ],
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-07-26",
+  "lastReviewedAt": "2026-07-26"
+}

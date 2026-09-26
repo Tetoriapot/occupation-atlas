@@ -1,0 +1,73 @@
+{
+  "id": "occ-170", "slug": "fisher", "name": "漁師", "aliases": ["漁業者", "沿岸漁業従事者"], "categoryId": "agriculture",
+  "searchFacets": {"eras":["premodern"],"regions":["maritime","fictional"],"situations":["disaster","maritime"]},
+  "catchphrase": "海況と魚群を読み、変わる海で安全に漁獲する。",
+  "shortDescription": "漁船で漁場へ向かい、網・釣り・かご等を用いて天然の水産物を漁獲し、選別・保蔵・水揚げする仕事。育成環境を管理する養殖業者とは、生産対象と海上判断の性質が異なる。",
+  "keywords": ["漁業","漁船","漁具","海況","水揚げ","航海","水産業","沿岸漁業","農林水産"],
+  "setting": {"eras": ["現代"], "regions": ["日本"], "note": "現代日本の沿岸漁業を中心とする漁師像。沖合・遠洋、漁法、船の規模、漁業権、地域で勤務と必要資格は大きく異なる。"},
+  "overview": {
+    "responsibilities": ["天気、潮、魚群、規制、操業情報から漁場と出港可否を判断し、漁具を安全に投入・回収する。", "漁獲物を船上で選別・冷却し、航海と漁獲の記録を残して市場・漁協へ水揚げする。"],
+    "typicalPeople": ["豊漁より帰港を優先し、海況悪化を早めに判断できる人。", "濡れた甲板で班の合図を守り、索具や機関の異常に注意を配れる人。"],
+    "dailySchedule": [
+      {"time": "03:30", "title": "出港判断", "description": "気象、潮、警報、燃料、救命設備、通信を確かめ、操業の可否を決める。"},
+      {"time": "05:00", "title": "漁場探索", "description": "海鳥、潮目、魚群探知機、過去の操業記録から漁具を入れる位置を選ぶ。"},
+      {"time": "07:00", "title": "操業・船上処理", "description": "網や釣具を回収し、甲板上の索と機械に注意して漁獲物を保冷する。"},
+      {"time": "11:00", "title": "水揚げ・整備", "description": "漁協等で計量・販売し、漁具、機関、甲板を次の出漁へ向けて整える。"}
+    ],
+    "qualifications": ["乗る船と担当により小型船舶操縦士、海技士、無線等の免許が関係する。漁業を営むには漁業権・許可等の制度確認も必要。"],
+    "education": ["水産高校、研修機関、漁業会社、家業で航海・漁具・海上安全を学ぶ。乗船経験を重ねて判断を任される。"],
+    "workStyle": ["夜明け前の出港、濡れた甲板、揺れ、寒暑があり、季節と漁期で勤務が変わる。単独操業でも陸との連絡と救命具が重要。"],
+    "annualIncome": {"summary": "漁獲量、魚価、燃油、船の所有、漁法、天候で収入が大きく変動し、固定給と歩合・自営では性質も異なる。", "note": "地域、操業日数、経費、漁業権、乗組員分配で異なり、売上高と手取りを分けて確認する必要がある。"},
+    "suitableFor": ["海況の変化に合わせて計画を捨てられる人", "索具と回転機械の危険を常に意識できる人"]
+  },
+  "creative": {
+    "investigatorFeatures": ["潮、漂流物、魚群、海鳥から、海上で何がどちらへ移動したか推測できる。", "港ごとの船、人間関係、漁場名に詳しく、公式地図にない瀬や入り江へ案内できる。"],
+    "likelyKnowledge": ["沿岸航海、気象、潮汐、魚類、漁具、魚群探知機。", "船舶機関、無線、救命、保冷、水揚げ、港と漁協の慣行。"],
+    "roleplayTips": ["海を見たら風向、うねり、潮目、鳥の位置を順に話す。", "危険時は漁具を惜しまず切り離し、人を先に船内へ戻す。"],
+    "personalityExamples": ["魚群より空模様を信じる船頭", "港の全船の機関音を聞き分ける若手漁師"],
+    "everydayEvents": ["魚群探知機に海底から水面へ立つ巨大な柱状反応が現れる。", "水揚げした魚すべての胃から同じ新しい鍵が出てくる。"],
+    "scenarioHooks": ["漂流船の網だけが毎朝きれいに畳まれて港へ戻る。", "立入を避けてきた沖の瀬から、失踪者の無線呼出符号が聞こえる。"],
+    "commonCharacterSettings": ["遭難した親の漁場日誌を読み継ぐ若い船主。", "違法操業を告発して港の一部と対立する乗組員。"]
+  },
+  "creativeIdeas": [
+    {"title": "魚群探知機の海底柱", "summary": "現代日本の沿岸で、魚探に海底から伸びる柱が映る。漁師は潮と測深を重ね、毎夜位置を変える構造物と失踪船の関係を追う。", "era": "現代", "region": "日本"},
+    {"title": "霧海の逆さ漁場", "summary": "帆船時代の濃霧で、網が空から魚を引き上げる。漁師は星と潮を失った海で、上下が反転する海域から帰路を探す。", "era": "大航海時代風", "region": "架空の霧海"}
+  ],
+  "scenarioSituations": [
+    {"title": "海上の漂流船", "reason": "接舷、索具、波の危険を判断し、船内へ移る前に漂流経路と最近の操船痕跡を読み取れる。"},
+    {"title": "孤島", "reason": "潮と小型船の運用を理解し、定期便のない島へ自然に到達して海岸の異常な漂着物を調べられる。"},
+    {"title": "暴風前の漁港", "reason": "係留、避難、通信の優先順位を知り、港に残る船や乗組員の不自然な行動を早期に見抜ける。"}
+  ],
+  "aptitude": {"investigation":3,"negotiation":3,"combat":3,"infiltration":3,"support":3,"knowledge":3,"beginnerFriendly":3},
+  "aptitudeReasons": {
+    "investigation": "調査3/5：漁師の「潮、漂流物、魚群、海鳥から、海上で何がどちらへ移動したか推測できる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "negotiation": "交渉3/5：漁師の「海を見たら風向、うねり、潮目、鳥の位置を順に話す」という職業像が、会話から情報や協力を引き出す役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ3/5：漁師の「海を見たら風向、うねり、潮目、鳥の位置を順に話す」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": ["操船", "海洋知識", "気象", "漁具", "無線", "機械修理", "救命"],
+  "relatedOccupationSlugs": ["aquaculture-worker","marine-biologist","ship-deck-officer","coast-guard-officer"],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省：職業情報提供サイト job tag「沿岸漁業従事者」",
+      "url": "https://shigoto.mhlw.go.jp/Occupation/Detail?occupationId=509",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "水産庁：漁船の安全操業に関する情報",
+      "url": "https://www.jfa.maff.go.jp/j/kikaku/anzen.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-17", "updatedAt": "2026-07-26", "lastReviewedAt": "2026-07-26"
+}

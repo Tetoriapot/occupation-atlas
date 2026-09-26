@@ -1,0 +1,190 @@
+{
+  "id": "occ-001",
+  "slug": "doctor",
+  "name": "医師",
+  "aliases": [
+    "医者",
+    "ドクター"
+  ],
+  "categoryId": "medical",
+  "searchFacets": {"eras":["taisho-1920s"],"regions":["island","fictional"],"situations":["closed","hospital","maritime","aviation"]},
+  "catchphrase": "限られた情報から病態を見立て、治療の判断を担う専門職。",
+  "shortDescription": "診察や検査を通じて病気・けがを評価し、診断と治療方針の最終的な判断を担う医療職。勤務先と専門科によって日常は大きく変わる。",
+  "keywords": [
+    "診療",
+    "病院",
+    "医学",
+    "診断",
+    "当直"
+  ],
+  "setting": {
+    "eras": [
+      "現代"
+    ],
+    "regions": [
+      "日本"
+    ],
+    "note": "現代日本の医療機関で診療を担う医師像が基準。診療科、地域、勤務先によって業務と勤務形態は大きく変わる。"
+  },
+  "overview": {
+    "responsibilities": [
+      "問診・診察・検査結果を総合して診療方針を立てる。",
+      "患者や家族、多職種へ状態と選択肢を説明する。"
+    ],
+    "typicalPeople": [
+      "長い学習を続けながら、不確実な状況で責任ある判断をしたい人が目指すことが多い。"
+    ],
+    "dailySchedule": [
+      {
+        "time": "08:30",
+        "title": "情報共有",
+        "description": "入院患者の経過や検査結果を確認し、チームで方針を合わせる。"
+      },
+      {
+        "time": "10:00",
+        "title": "診察・処置",
+        "description": "外来や病棟で診察し、必要な検査や治療を手配する。"
+      },
+      {
+        "time": "17:00",
+        "title": "記録と引き継ぎ",
+        "description": "診療録を整え、夜間担当へ注意点を伝える。"
+      },
+      {
+        "time": "18:00",
+        "title": "症例検討",
+        "description": "判断の難しい症例を多職種で振り返り、検査結果と治療反応から翌日の方針を更新する。"
+      }
+    ],
+    "qualifications": [
+      "日本で診療するには原則として医師免許が必要で、専門領域には各種の認定制度がある。"
+    ],
+    "education": [
+      "一般には大学医学部で学び、医師国家試験と臨床研修を経る。具体的な進路は専門により異なる。"
+    ],
+    "workStyle": [
+      "病院・診療所・研究機関・行政などで働く。夜勤や当直、緊急呼び出しの有無は職場による。"
+    ],
+    "annualIncome": {
+      "summary": "勤務先、診療科、経験、役職、当直・勤務時間、地域などで差が大きく、単一の金額では示しにくい。",
+      "note": "診療科、地域、所属、経験、勤務時間、開業の有無などで大きく異なる概算。"
+    },
+    "suitableFor": [
+      "観察と論理的判断を両立できる人",
+      "相手の不安を受け止めつつ説明できる人"
+    ]
+  },
+  "creative": {
+    "investigatorFeatures": [
+      "身体所見と証言の食い違いから、事件の異常を早期に察知しやすい。",
+      "複数の症状を一つの原因で説明できるか検討し、危険な可能性から先に除外する思考を調査へ応用できる。"
+    ],
+    "likelyKnowledge": [
+      "人体・感染症・薬剤・医療機関の運用に関する知識。",
+      "検査の限界、診療録の読み方、専門診療科への紹介と救急受入れの流れ。"
+    ],
+    "roleplayTips": [
+      "質問を順序立て、結論より先に根拠を確かめる話し方が職業らしさを出す。",
+      "分からないことを無理に断定せず、緊急度と追加で必要な情報を切り分けて仲間へ伝える。"
+    ],
+    "personalityExamples": [
+      "冷静な現実主義者",
+      "患者を放っておけない理想家"
+    ],
+    "everydayEvents": [
+      "休みの日にも体調相談を持ちかけられる。",
+      "別々の診療科を受診した患者の記録に、同じ見慣れない皮膚所見が記載されている。"
+    ],
+    "scenarioHooks": [
+      "原因不明の症状を示す患者から、診療録にない場所の名を告げられる。",
+      "救急外来へ運ばれた身元不明者の体内から、現在の医療では説明できない手術痕が見つかる。"
+    ],
+    "commonCharacterSettings": [
+      "過去に救えなかった患者への後悔を抱える救急医。",
+      "離島勤務で検査機器に頼らない診察を身につけた総合診療医。"
+    ]
+  },
+  "creativeIdeas": [
+    {
+      "title": "診療録にない場所",
+      "summary": "休みの日にも体調相談を持ちかけられる。原因不明の症状を示す患者から、診療録にない場所の名を告げられる。患者の安全を守りながら、症状と地名の関係を診立てる。",
+      "era": "現代",
+      "region": "日本"
+    },
+    {
+      "title": "孤島診療所の集団症状",
+      "summary": "限られた器具で診療する医師が、島民の夢と脈拍に共通する異変を見つける。感染症か別の原因かを慎重に切り分ける。",
+      "era": "1920年代風",
+      "region": "架空の離島"
+    }
+  ],
+  "scenarioSituations": [
+    {
+      "title": "廃病院の診療記録",
+      "reason": "古いカルテの症状と治療方針を医学的に読み解き、閉鎖理由に隠された集団発症の経過を復元できる。"
+    },
+    {
+      "title": "孤島の臨時診療所",
+      "reason": "検査手段が限られる中で住民の所見を比較し、感染症と環境由来の異常を切り分ける中心になれる。"
+    },
+    {
+      "title": "飛行中の急病人",
+      "reason": "機内という閉鎖空間で緊急処置を担い、乗客の安全確保と原因不明の症状調査を同時に進められる。"
+    }
+  ],
+  "aptitude": {
+    "investigation": 4,
+    "negotiation": 3,
+    "combat": 1,
+    "infiltration": 2,
+    "support": 5,
+    "knowledge": 5,
+    "beginnerFriendly": 3
+  },
+  "aptitudeReasons": {
+    "support": "サポート5/5：医師の「問診・診察・検査結果を総合して診療方針を立てる」という職業像が、仲間の判断と行動を支える役づくりにつながります。",
+    "knowledge": "知識5/5：医師の「人体・感染症・薬剤・医療機関の運用に関する知識」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。",
+    "combat": "戦闘1/5：医師の「古いカルテの症状と治療方針を医学的に読み解き、閉鎖理由に隠された集団発症の経過を復元できる」という職業像が、危険な現場で行動する理由や、戦闘を避ける判断の描写につながります。"
+  },
+  "skillImages": [
+    "医学知識",
+    "応急手当",
+    "観察",
+    "心理理解",
+    "説明",
+    "診療判断"
+  ],
+  "relatedOccupationSlugs": [
+    "nurse",
+    "emergency-medical-technician",
+    "pharmacist",
+    "clinical-laboratory-technologist",
+    "radiological-technologist"
+  ],
+  "featured": {
+    "popularRank": 1,
+    "recommendedRank": 2
+  },
+  "sources":[
+    {
+      "title": "厚生労働省：医師国家試験の施行について",
+      "url": "https://www.mhlw.go.jp/kouseiroudoushou/shikaku_shiken/ishi/",
+      "type": "government",
+      "supports": [
+        "qualifications"
+      ]
+    },
+    {
+      "title": "厚生労働省：医師臨床研修制度",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/rinsyo/index.html",
+      "type": "government",
+      "supports": [
+        "qualifications",
+        "education"
+      ]
+    }
+  ],
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-07-26",
+  "lastReviewedAt": "2026-07-26"
+}

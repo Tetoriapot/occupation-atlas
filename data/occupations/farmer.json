@@ -1,0 +1,177 @@
+{
+  "id": "occ-046",
+  "slug": "farmer",
+  "name": "耕種農家",
+  "aliases": [
+    "農家",
+    "耕種農業者"
+  ],
+  "categoryId": "agriculture",
+  "searchFacets": {"eras":["taisho-1920s"],"regions":["rural","mountain","fictional"],"situations":["outdoors","event","everyday"]},
+  "catchphrase": "土・天候・生き物の変化を読み、季節ごとの収穫を育てる。",
+  "shortDescription": "米・野菜等の耕種を中心に農作物を栽培・収穫・出荷し、土壌、設備、資材、販路を管理する農業者の一般像。家畜・乳牛・水産物を主対象とする専門職とは分けて扱う。",
+  "keywords": ["農業","栽培","土壌","天候","農機","農業者","農業従事者","耕種農業","農林水産"],
+  "setting": {
+    "eras": [
+      "現代"
+    ],
+    "regions": [
+      "日本"
+    ],
+    "note": "現代日本で農作物の生産と経営を担う農家像が基準。作目、地域、規模、兼業の有無で一年の流れは変わる。"
+  },
+  "overview": {
+    "responsibilities": [
+      "土壌と天候を見て播種、施肥、防除、収穫の時期を判断する。",
+      "農機・施設を整備し、選別、出荷、販売、経営記録を行う。"
+    ],
+    "typicalPeople": [
+      "自然の変動を受け入れ、長期の計画と毎日の手入れを続けられる人が向かう。"
+    ],
+    "dailySchedule": [
+      {
+        "time": "05:30",
+        "title": "圃場確認",
+        "description": "気温、土の水分、病害虫、作物の成長を見て作業を決める。"
+      },
+      {
+        "time": "07:00",
+        "title": "栽培・収穫",
+        "description": "季節に応じて耕起、植付け、管理、収穫を行う。"
+      },
+      {
+        "time": "15:00",
+        "title": "選別・整備",
+        "description": "出荷品を選別し、農機や施設を清掃・修理する。"
+      },
+      {
+        "time": "18:00",
+        "title": "記録と翌日計画",
+        "description": "収量、使用資材、天気予報、受注を確認し、翌日の圃場と作業順を組み替える。"
+      }
+    ],
+    "qualifications": [
+      "農業従事に一律の必須資格は通常ない。農地取得・農薬・大型特殊車両等には手続や資格が関係する場合がある。"
+    ],
+    "education": [
+      "農業高校・大学・研修機関で学ぶほか、家業継承や農業法人への就職から経験を積む経路がある。"
+    ],
+    "workStyle": [
+      "早朝と屋外作業が多く、天候・季節・生育に休日が左右される。家族経営、法人、兼業など形態は多様。"
+    ],
+    "annualIncome": {
+      "summary": "所得は赤字から高収益まで非常に幅広く、売上ではなく経費差引後で見る必要がある。",
+      "note": "地域、品目、天候、規模、設備投資、販路、家族・法人・兼業等の経営形態で大きく異なる。"
+    },
+    "suitableFor": [
+      "小さな自然変化を毎日観察できる人",
+      "不確実な結果に備えながら体を動かせる人"
+    ]
+  },
+  "creative": {
+    "investigatorFeatures": [
+      "土地、天候、動植物、農道、地域の家系に詳しく、普段と違う生育や痕跡に気づく。",
+      "畝、灌水、農機の轍、散布記録を読み、人が圃場へ手を加えた順序を推測できる。"
+    ],
+    "likelyKnowledge": [
+      "栽培、土壌、気象、農機、動植物、地域の伝承。",
+      "播種、施肥、灌水、病害虫、収穫、選別、販路、農地と水路の管理。"
+    ],
+    "roleplayTips": [
+      "空の色、風、土の匂い、生き物の鳴き方から予定を変える。",
+      "作物の異常を一株だけか畝沿いか水路沿いかで見分け、原因の広がり方を話す。"
+    ],
+    "personalityExamples": [
+      "寡黙で観察力のある実務家",
+      "新技術を試す経営者"
+    ],
+    "everydayEvents": [
+      "一つの畝だけ、季節を無視して一夜で成熟する。",
+      "耕していない区画へ、農機の轍が地中から浮かぶように現れる。"
+    ],
+    "scenarioHooks": [
+      "干ばつの村で、立入禁止の畑だけが黒い実を豊作にする。",
+      "共同水路の上流から、存在しない作物の種が毎朝流れ着く。"
+    ],
+    "commonCharacterSettings": [
+      "都会から戻り、代々の土地と奇妙な祭を継いだ若手農家。",
+      "スマート農業の導入で古い圃場図の矛盾を見つけた法人職員。"
+    ]
+  },
+  "creativeIdeas": [
+    {
+      "title": "禁足畑の黒い豊作",
+      "summary": "一つの畝だけ、季節を無視して一夜で成熟する。干ばつの村で、立入禁止の畑だけが黒い実を豊作にする。村の食料を守るか、異常な畑を封じるかを選ぶ。",
+      "era": "現代",
+      "region": "日本"
+    },
+    {
+      "title": "収穫暦にない作物",
+      "summary": "農家が古い種籾から季節外れに育つ作物を見つける。豊作を歓迎する村人と、土壌の異変を恐れる古老の間で判断する。",
+      "era": "1920年代風",
+      "region": "架空の山村"
+    }
+  ],
+  "scenarioSituations": [
+    {
+      "title": "山間の農村",
+      "reason": "季節ごとの土地と作物を見続けているため、一晩で変わった土壌や動物が避ける畑をいち早く見抜ける。"
+    },
+    {
+      "title": "巨大温室",
+      "reason": "温度、水、肥料を細かく管理する知識から、設備故障では説明できない成長と胞子の広がりを追跡できる。"
+    },
+    {
+      "title": "収穫祭",
+      "reason": "地域共同体の一員として昔からの作法に参加し、今年だけ供物が変わった理由を古老へ尋ねやすい。"
+    }
+  ],
+  "aptitude": {"investigation": 3, "negotiation": 2, "combat": 2, "infiltration": 3, "support": 2, "knowledge": 3, "beginnerFriendly": 3},
+  "aptitudeReasons": {
+    "investigation": "調査3/5：耕種農家の「土地、天候、動植物、農道、地域の家系に詳しく、普段と違う生育や痕跡に気づく」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "infiltration": "潜入3/5：耕種農家の「干ばつの村で、立入禁止の畑だけが黒い実を豊作にする」という職業像が、人目を避けて現場へ近づく場面の説得力につながります。",
+    "support": "サポート2/5：耕種農家の「土壌と天候を見て播種、施肥、防除、収穫の時期を判断する」という職業像が、仲間の判断と行動を支える役づくりにつながります。"
+  },
+  "skillImages": [
+    "農業",
+    "自然観察",
+    "機械修理",
+    "運転",
+    "地域知識",
+    "気象",
+    "土壌知識"
+  ],
+  "relatedOccupationSlugs": [
+    "livestock-farmer",
+    "agricultural-extension-advisor",
+    "agricultural-machinery-mechanic",
+    "life-science-researcher",
+    "beekeeper"
+  ],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省 職業情報提供サイト（job tag）：稲作農業者",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/504",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "農林水産省：農作業安全対策",
+      "url": "https://www.maff.go.jp/j/seisan/sien/sizai/s_kikaika/anzen/",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-10",
+  "updatedAt": "2026-07-26",
+  "lastReviewedAt": "2026-07-26"
+}

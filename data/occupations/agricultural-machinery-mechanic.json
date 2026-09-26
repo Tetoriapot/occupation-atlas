@@ -1,0 +1,77 @@
+{
+  "id": "occ-172", "slug": "agricultural-machinery-mechanic", "name": "農業機械整備士", "aliases": ["農機整備技能者", "農機サービス技術員"], "categoryId": "agriculture",
+  "searchFacets": {"eras":["near-future"],"regions":["space","fictional"],"situations":["outdoors","disaster","everyday"]},
+  "catchphrase": "泥と季節の中で働く機械を、収穫期へ間に合わせる。",
+  "shortDescription": "トラクター、田植機、コンバイン、作業機など農業機械を点検・診断・修理する技能職。一般の設備保全と異なり、圃場使用、作業機連結、季節集中、農家への訪問対応を扱う。",
+  "keywords": ["農業機械","整備","トラクター","油圧","診断","農作業安全","農機整備","農林水産"],
+  "setting": {"eras": ["現代"], "regions": ["日本"], "note": "現代日本の農機販売店、整備工場、農業法人で農業機械を整備する職業像。メーカー、機種、出張範囲で担当は異なる。"},
+  "overview": {
+    "responsibilities": ["農機の使用状況と症状を聞き、エンジン、駆動、油圧、電装、制御を点検して故障原因を特定する。", "修理後に安全装置、制動、作業機連結、漏れを確認し、農家へ安全な操作と日常点検を説明する。"],
+    "typicalPeople": ["泥や植物片に隠れた故障を現場条件まで含めて考えられる人。", "農繁期の急ぎでも、支持具なしで機械の下へ入らない人。"],
+    "dailySchedule": [
+      {"time": "08:00", "title": "修理受付・優先付け", "description": "機種、症状、作業予定、現場位置を聞き、停止影響と安全性で順番を決める。"},
+      {"time": "09:30", "title": "故障診断", "description": "洗浄後に漏れ、摩耗、エラー履歴を調べ、部品交換前に原因を切り分ける。"},
+      {"time": "13:00", "title": "圃場出張", "description": "機械を安定させてエネルギーを遮断し、現地で応急修理または搬送判断を行う。"},
+      {"time": "16:30", "title": "試運転・説明", "description": "ガードと安全装置を復旧して動作確認し、再発防止の点検箇所を利用者へ伝える。"}
+    ],
+    "qualifications": ["農業機械整備技能士は技能を示す国家検定。道路走行、溶接、電気等は作業内容に応じた免許・教育が別に必要になる場合がある。"],
+    "education": ["工業・農業高校、職業能力開発校、メーカー研修、販売店の実務で機械・電気・油圧を学ぶ。"],
+    "workStyle": ["整備工場と圃場への出張を行い、田植え・収穫期は修理依頼が集中する。大型機を扱うため支持、輪止め、挟まれ防止が重要。"],
+    "annualIncome": {"summary": "販売店・メーカー・農業法人、技能、出張、繁忙期の勤務により幅がある。", "note": "地域、資格、担当機種、雇用形態、残業や呼出の有無で異なり、一律の金額は示せない。"},
+    "suitableFor": ["機械の症状を利用者の言葉から具体化できる人", "急ぎの現場でも支持と停止確認を徹底できる人"]
+  },
+  "creative": {
+    "investigatorFeatures": ["泥、植物片、摩耗、エラー履歴から、機械が直前にどの圃場で何をしていたか推定できる。", "地域の農道、納屋、農機の所有者に詳しく、不審な機械移動を追いやすい。"],
+    "likelyKnowledge": ["内燃機関、油圧、電装、駆動、農作業機、故障診断。", "溶接の基礎、工具、圃場、安全装置、農道、作付け季節。"],
+    "roleplayTips": ["故障音を聞く前に、機械を安定させて回転部を完全に止める。", "症状だけでなく、直前の作業・傾斜・土質・負荷を農家へ尋ねる。"],
+    "personalityExamples": ["土の付き方で使った畑を当てる出張整備員", "古い農機の部品を自作する町の修理屋"],
+    "everydayEvents": ["停止したコンバインの収穫量計だけが、地下の作物を数え続ける。", "修理車へ積んだ故障部品が、夜明けには新品へ戻っている。"],
+    "scenarioHooks": ["無人トラクターが地図にない畑を夜ごと正確に耕す。", "事故農機の制御記録に、数十年前の作業経路が保存されている。"],
+    "commonCharacterSettings": ["メーカーも直せない旧型農機を守る地域最後の整備士。", "自動運転農機の不可解な事故を追って退職した元サービス員。"]
+  },
+  "creativeIdeas": [
+    {"title": "地下作物を数える収穫機", "summary": "現代日本の農機工場で、停止したコンバインが地面の下にある何かを収穫量として数える。整備士はセンサーと走行履歴から埋没圃場を探す。", "era": "現代", "region": "日本"},
+    {"title": "火星農場の迷走トラクター", "summary": "火星温室の自動トラクターが栽培区画を外れ、毎晩同じ座標を耕す。整備士は制御系と土壌センサーを調べる。", "era": "近未来", "region": "架空の火星農場"}
+  ],
+  "scenarioSituations": [
+    {"title": "収穫期の農村", "reason": "地域の機械と圃場を巡回する立場から、複数農家で同時に起きる故障と共通した土壌付着を結べる。"},
+    {"title": "無人農業施設", "reason": "自動走行、作業機、センサーを分けて診断し、命令外の経路を走った原因を機械ログから追える。"},
+    {"title": "豪雨後の納屋", "reason": "冠水機械を不用意に始動せず、燃料・電気・油圧の危険を抑えながら内部に残る証拠を保全できる。"}
+  ],
+  "aptitude": {"investigation":4,"negotiation":3,"combat":2,"infiltration":3,"support":4,"knowledge":4,"beginnerFriendly":2},
+  "aptitudeReasons":{
+    "investigation": "調査4/5：農業機械整備士の「泥、植物片、摩耗、エラー履歴から、機械が直前にどの圃場で何をしていたか推定できる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "support": "サポート4/5：農業機械整備士の「農機の使用状況と症状を聞き、エンジン、駆動、油圧、電装、制御を点検して故障原因を特定する」という職業像が、仲間の判断と行動を支える役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ2/5：農業機械整備士の「故障音を聞く前に、機械を安定させて回転部を完全に止める」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": ["農機整備", "機械修理", "油圧", "電気知識", "故障診断", "運転", "安全管理"],
+  "relatedOccupationSlugs": ["farmer", "industrial-maintenance-technician", "mechanical-engineer", "dairy-farmer"],
+  "featured": {},
+  "sources":[
+    {
+      "title": "農林水産省：農業機械・農作業安全研修",
+      "url": "https://www.maff.go.jp/j/kanbo/tukuba/mito/zyuko/kennsyuuhuukei.html",
+      "type": "government",
+      "supports": [
+        "education"
+      ]
+    },
+    {
+      "title": "農林水産省：農作業安全に関する研修について",
+      "url": "https://www.maff.go.jp/j/seisan/sien/sizai/s_kikaika/anzen/kenshu.html",
+      "type": "government",
+      "supports": [
+        "education"
+      ]
+    },
+    {
+      "title": "中央職業能力開発協会：技能検定・農業機械整備の作業内容",
+      "url": "https://www.javada.or.jp/jigyou/gino/sagyou_naiyou.html",
+      "type": "professional-organization",
+      "supports": [
+        "qualifications"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-17", "updatedAt": "2026-07-26", "lastReviewedAt": "2026-07-26"
+}

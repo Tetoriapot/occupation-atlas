@@ -1,0 +1,73 @@
+{
+  "id": "occ-163", "slug": "semiconductor-process-engineer", "name": "半導体プロセス技術者", "aliases": ["プロセスエンジニア", "半導体製造技術者"], "categoryId": "manufacturing",
+  "searchFacets": {"eras":["near-future"],"regions":["space","fictional"],"situations":["closed","research-facility","factory","office"]},
+  "catchphrase": "目に見えない薄膜と欠陥を、工程データから制御する。",
+  "shortDescription": "成膜、露光、エッチング、洗浄、熱処理など半導体製造工程の条件を開発・管理し、歩留まりを改善する技術者。回路設計ではなく、設計データをウェハ上へ再現する工程を担う。",
+  "keywords": ["半導体", "クリーンルーム", "ウェハ", "成膜", "露光", "歩留まり"],
+  "setting": {"eras": ["現代"], "regions": ["日本"], "note": "現代日本の半導体工場・研究開発拠点で特定工程を担当するプロセス技術者像。前工程・後工程、量産・開発、材料・装置で専門は細分化される。"},
+  "overview": {
+    "responsibilities": ["担当工程の膜厚、寸法、温度、圧力、薬液などの条件を設計し、デバイス性能へつながる加工結果を再現する。", "欠陥マップと装置ログを解析し、異常ウェハを隔離して歩留まり低下の要因を特定・改善する。"],
+    "typicalPeople": ["直接見えない現象を多数の測定値から仮説化し、実験計画で切り分けられる人。", "微量汚染や薬品の危険を軽視せず、クリーンルーム手順を守れる人。"],
+    "dailySchedule": [
+      {"time": "08:30", "title": "歩留まり確認", "description": "ロット別欠陥分布と装置アラームを見て、保留すべきウェハを判断する。"},
+      {"time": "10:00", "title": "工程実験", "description": "変更する条件を限定し、評価用ウェハで膜厚や寸法への影響を調べる。"},
+      {"time": "13:30", "title": "装置・材料協議", "description": "製造、装置、材料担当と汚染源候補やメンテナンス時期を擦り合わせる。"},
+      {"time": "17:00", "title": "判定と引き継ぎ", "description": "統計結果とリスクを記録し、夜間処理の条件と停止基準を当直へ渡す。"}
+    ],
+    "qualifications": ["入職に一律の必須資格は通常ない。薬品、高圧ガス、放射線等を扱う場合は設備・作業に応じた法令上の管理者や教育が別途必要になる。"],
+    "education": ["大学・大学院や高専で物理、化学、材料、電気電子、機械を学ぶ例が多い。工程によって求められる専攻は異なる。"],
+    "workStyle": ["解析はオフィス、確認はクリーンルームで行う。工場は連続稼働し、異常時の呼出、交替支援、国内外装置メーカーとの協働がある。"],
+    "annualIncome": {"summary": "専門工程、研究開発経験、量産責任、企業規模で差が大きく、高度技術職として勤務先ごとの幅がある。", "note": "地域、役職、交替勤務、語学、特許・開発実績などで変わり、公開統計は広い電気電子技術者分類の参考値となる。"},
+    "suitableFor": ["数百の工程から一つの異常要因を統計的に絞れる人", "微細な汚染管理と安全手順を根気よく守れる人"]
+  },
+  "creative": {
+    "investigatorFeatures": ["欠陥マップの形から、装置内の発生位置や搬送経路に潜む共通要因を推測できる。", "時刻、薬液ロット、チャンバー履歴を結び、目に見えない汚染の移動を追跡できる。"],
+    "likelyKnowledge": ["半導体物理、薄膜、真空、プラズマ、フォトリソグラフィ。", "クリーンルーム、薬品安全、統計解析、装置ログ、歩留まり管理。"],
+    "roleplayTips": ["結論を急がず、変えた条件と変えていない条件を分けて話す。", "微粒子一個でも、どの工程で付着したかウェハの位置から考える。"],
+    "personalityExamples": ["欠陥マップを星図のように読む解析者", "クリーンスーツの所作に厳しい工程守"],
+    "everydayEvents": ["特定ロットの欠陥だけが、未知の星座と同じ配置を描く。", "空のチャンバーから、人間の呼吸周期に似た圧力変動が記録される。"],
+    "scenarioHooks": ["廃棄ウェハを重ねると、工場地下の平面図が回路として現れる。", "製品不良が事故の前日にだけ増え、未来の装置停止を予告している。"],
+    "commonCharacterSettings": ["歩留まり異常の報告を握り潰され退職した元工程主任。", "世界中の工場で同じ欠陥を見た装置立上げ専門家。"]
+  },
+  "creativeIdeas": [
+    {"title": "欠陥マップの地下回路", "summary": "現代日本の半導体工場で、欠陥座標を重ねると地下区画を示す回路になる。技術者は装置履歴を追い、図面にない搬送先を探す。", "era": "現代", "region": "日本"},
+    {"title": "軌道ファブの予言ロット", "summary": "宇宙工場のウェハが、数時間後の微小隕石衝突位置と同じ欠陥を先に示す。工程技師は予兆を利用する代償を検証する。", "era": "近未来", "region": "架空の軌道工場"}
+  ],
+  "scenarioSituations": [
+    {"title": "封鎖されたクリーンルーム", "reason": "汚染を広げない入退室手順を守りつつ、装置ログと欠陥分布から封鎖原因を遠隔で絞り込める。"},
+    {"title": "企業研究所", "reason": "非公開試作ロットへ職務上関われるため、未知の材料が示す異常な電気特性を調べる導入が自然になる。"},
+    {"title": "自動搬送工場", "reason": "ウェハの搬送履歴を時系列で追い、人が入れない工程間で何が混入したかを特定する役割を持てる。"}
+  ],
+  "aptitude": {"investigation":5,"negotiation":3,"combat":2,"infiltration":4,"support":3,"knowledge":5,"beginnerFriendly":1},
+  "aptitudeReasons": {
+    "investigation": "調査5/5：半導体プロセス技術者の「欠陥マップの形から、装置内の発生位置や搬送経路に潜む共通要因を推測できる」という職業像が、手がかりを整理し、違和感を追う役づくりにつながります。",
+    "knowledge": "知識5/5：半導体プロセス技術者の「半導体物理、薄膜、真空、プラズマ、フォトリソグラフィ」という職業像が、専門知識を物語の手がかりとして提示する役づくりにつながります。",
+    "beginnerFriendly": "初心者おすすめ1/5：半導体プロセス技術者の「結論を急がず、変えた条件と変えていない条件を分けて話す」という職業像が、専門知識を知らない状態からRPへ入る難易度の目安になります。"
+  },
+  "skillImages": ["半導体知識", "統計解析", "化学", "真空技術", "装置ログ", "汚染管理", "実験計画"],
+  "relatedOccupationSlugs": ["production-engineer", "electrical-equipment-engineer", "quality-control-specialist", "data-scientist"],
+  "featured": {},
+  "sources":[
+    {
+      "title": "厚生労働省：職業情報提供サイト job tag「半導体技術者」",
+      "url": "https://shigoto.mhlw.go.jp/Occupation/Detail?occupationId=267",
+      "type": "government",
+      "supports": [
+        "responsibilities",
+        "qualifications",
+        "education",
+        "workStyle",
+        "annualIncome"
+      ]
+    },
+    {
+      "title": "経済産業省：半導体・デジタル産業戦略検討会議",
+      "url": "https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital.html",
+      "type": "government",
+      "supports": [
+        "responsibilities"
+      ]
+    }
+  ],
+  "publishedAt": "2026-07-17", "updatedAt": "2026-07-26", "lastReviewedAt": "2026-07-26"
+}
